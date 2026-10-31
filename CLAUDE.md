@@ -19,12 +19,14 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | Chapter 8 · Freedom with Inherited Machinery | Draft 1 done (~2,700 words, notes 111–124; reuses [45], [78], [79], [100], [102], [103], [110]). **One `[AUTHOR]` placeholder on Kooki 1966–1993** |
 | Chapter 9 · When Power Became Greater Than Purpose | Draft 1 done (~2,500 words, notes 125–135; reuses [83], [112], [114], [121], [123], [124]) |
 | Chapter 10 · When Greatness Began to Sound Like a Fairy Tale | Draft 1 done (~2,500 words, notes 136–142; reuses [16], [38], [69], [74], [124]). **One `[AUTHOR]` placeholder on the author’s schooling** |
-| Chapter 11 | Not started — plan in `research/chapter_plan.md` |
-| **Next note number** | **143** |
-| **Next task** | **Chapter 11 · The Sentence We Inherited** |
+| Chapter 11 · The Sentence We Inherited | Draft 1 done (~2,100 words + author material, notes 143–144; reuses many earlier notes). **Three `[AUTHOR]` placeholders (campus story, how the research changed him, an inherited habit from his own work)** |
+| Full draft | `drafts/Letters_Conflict_Origins_Chapters_1-11_Draft.docx` / `.pdf` (144 pp., ~33,000 words, notes 1–144 continuous) |
+| **Open `[AUTHOR]` placeholders** | 9 in total: Ch 5 (3, Kooki), Ch 7 (1, Kooki and the 1900 agreement), Ch 8 (1, Kooki 1966–93), Ch 10 (1, schooling), Ch 11 (3, campus and present) |
+| **Next note number** | **145** |
+| **Next task** | **Introduction (“The Book I Started on Campus”) — needs the author’s interview answers; then front matter, appendices and covers** |
 | Covers | Not started. Original covers already exist (made earlier in ChatGPT); the author must supply the files. Do covers **after** the Origins manuscript is complete. |
 
-The author has asked for: **write every remaining Origins chapter (4 → 11), then the covers.**
+Chapters 4–11 were drafted on 31 October 2026. Ch 8–11 run shorter (~2,000–2,700 words) by design; the author’s own material will deepen them. Every Wikipedia-led or secondary point is listed in `research/verification.md`. The author has asked next for: **the Introduction, front matter and covers.**
 
 ## 2. Locked decisions
 

@@ -94,9 +94,14 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[141]** Identify the original Guardian (2010) article quoted via HNN.
 - [ ] **[142]** 1947 agreement on the Aksum stele — confirm in the 1947 Treaty of Peace with Italy.
 
+## Chapter 11 · The Sentence We Inherited
+- [ ] **[143]** Zimbabwe Bird handover (14–15 April 2026; “temporary relocation pending legislative processes”) — confirm current legal status before publication.
+- [ ] **[144]** Posselt (1889), Bent’s count, 1981 exchange, 2003 Berlin return — confirm in Matenga (1998) and museum records.
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.
 - [ ] Remove or replace every Wikipedia-only citation with the scholarly source it relies on.
 - [ ] Author revises every chapter in his own voice; decide KDP AI-content disclosure accordingly.
+- [ ] Research access note: UNESCO, Britannica and the Met blocked automated fetching from the drafting environment (Oct 2026); several notes therefore cite open secondary sources or Wikipedia as leads. Re-check these against the institutional pages by hand.
 - [ ] Permissions: epigraphs and long quotations from modern copyrighted works (e.g. Achebe) are short and attributed; confirm fair-dealing comfort with publisher.
