@@ -38,6 +38,16 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[68]** Igun-Eronmwon guild history — Wikipedia lead; confirm in Plankensteiner 2007.
 - [ ] **[69]** Ban on sale of male slaves after 1516; 1514 embassy — confirm in Ryder, *Benin and the Europeans* (1969).
 
+## Chapter 5 · The Grammar of African Power
+- [ ] **[11]** Stanley quotations (Usavara, April 1875; muster-roll; Koki references) — checked in the Gutenberg text of vol. 1; confirm page numbers in the 1878 first edition.
+- [ ] **[75]** Buganda chiefs (bakungu/bataka/batongole), Namasole and Lubuga powers, raiding and slave tribute — Wikipedia lead; confirm in Wrigley 2002, Reid 2002, Schiller 1990, Médard & Doyle 2007.
+- [ ] **[77]** Kagwa’s dates, offices and *Basekabaka be Buganda* (1901) — confirm in Kiwanuka’s translation (1971).
+- [ ] **[79]** Kooki: founding by Bwohe (c. 1696–1740), tributary status, Ndahura’s requests of 1894–95, the 1896 Mengo agreement and its terms; **name of the signing Kamuswaga (Hezekiah Ndawula vs Edward Kezekia Ndahura II)** — confirm against the agreement text and the author.
+- [ ] **[81]** Uganda Martyrs numbers and dates — confirm in Faupel (1962) / Rowe (1964).
+- [ ] **[82]** Golden Stool traditions — confirm in Kyerematen (1969).
+- [ ] **[83]** Asante constitution, ban under Osei Kwame, Osei Bonsu’s 1820 words — confirm in Wilks (1975) and Dupuis (1824).
+- [ ] **[86]** Fortes & Evans-Pritchard’s centralised/uncentralised distinction — confirm in the 1940 introduction.
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.

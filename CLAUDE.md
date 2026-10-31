@@ -13,9 +13,10 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | Chapter 2 · Nile, Kush, and the Horn | Draft 1 done (~3,200 words, notes 23–40) |
 | Chapter 3 · Gold, Manuscripts, and the Cities of Knowledge | Draft 1 done (~2,900 words, notes 41–56) |
 | Chapter 4 · Stone, Sea, and Bronze | Draft 1 done (~3,800 words, notes 57–74) |
-| Chapters 5–11 | Not started — plan in `research/chapter_plan.md` |
-| **Next note number** | **75** |
-| **Next task** | **Chapter 5 · The Grammar of African Power** |
+| Chapter 5 · The Grammar of African Power | Draft 1 done (~3,500 words, notes 75–89; reuses [11]). **Three `[AUTHOR]` placeholders on Kooki** |
+| Chapters 6–11 | Not started — plan in `research/chapter_plan.md` |
+| **Next note number** | **90** |
+| **Next task** | **Chapter 6 · The Markets of Captivity** |
 | Covers | Not started. Original covers already exist (made earlier in ChatGPT); the author must supply the files. Do covers **after** the Origins manuscript is complete. |
 
 The author has asked for: **write every remaining Origins chapter (4 → 11), then the covers.**
