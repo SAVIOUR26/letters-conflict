@@ -3,3 +3,6 @@ node_modules/
 ~$*
 .DS_Store
 Thumbs.db
+cover/output/origins_cover_preview.png
+cover/output/origins_cover_wrap.png
+cover/output/*.html
