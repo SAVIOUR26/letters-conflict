@@ -15,9 +15,10 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | Chapter 4 · Stone, Sea, and Bronze | Draft 1 done (~3,800 words, notes 57–74) |
 | Chapter 5 · The Grammar of African Power | Draft 1 done (~3,500 words, notes 75–89; reuses [11]). **Three `[AUTHOR]` placeholders on Kooki** |
 | Chapter 6 · The Markets of Captivity | Draft 1 done (~3,000 words, notes 90–99; reuses [11], [69], [75], [83]) |
-| Chapters 7–11 | Not started — plan in `research/chapter_plan.md` |
-| **Next note number** | **100** |
-| **Next task** | **Chapter 7 · Lines Drawn Across Living Worlds** |
+| Chapter 7 · Lines Drawn Across Living Worlds | Draft 1 done (~3,000 words, notes 100–110; reuses [75], [77]–[79], [82], [85]). **One `[AUTHOR]` placeholder on Kooki and the 1900 agreement** |
+| Chapters 8–11 | Not started — plan in `research/chapter_plan.md` |
+| **Next note number** | **111** |
+| **Next task** | **Chapter 8 · Freedom with Inherited Machinery** |
 | Covers | Not started. Original covers already exist (made earlier in ChatGPT); the author must supply the files. Do covers **after** the Origins manuscript is complete. |
 
 The author has asked for: **write every remaining Origins chapter (4 → 11), then the covers.**

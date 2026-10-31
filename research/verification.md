@@ -58,6 +58,16 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[98]** Njinga: flight of plantation slaves, expansion of slave trade in Matamba — confirm in Heywood (2017).
 - [ ] **[99]** Equiano/Carretta evidence and Lovejoy 2025 — confirm in Carretta (2005) and Lovejoy (2025).
 
+## Chapter 7 · Lines Drawn Across Living Worlds
+- [ ] **[100]** Uganda/Buganda Agreement 1900 — text currently from Wikipedia’s reproduction; confirm articles, land figures, Kooki entries and taxes in Low & Pratt (1960) or the official text; confirm the term “mailo”.
+- [ ] **[101]** General Act of Berlin (26 Feb 1885), Article 6 wording, effective occupation — confirm against the Act.
+- [ ] **[105]** Kabalega’s capture/exile details — confirm in Doyle (2006).
+- [ ] **[106]** Kakungulu, including whether he was a Mukooki by birth — confirm in Twaddle (1993). (Author may know.)
+- [ ] **[107]** Yaa Asantewaa war details (siege dates, 1,400 relief force, exile) — confirm in Boahen (2003).
+- [ ] **[108]** Maji Maji casualty range (75,000–300,000) — confirm in Iliffe (1979).
+- [ ] **[109]** Women’s War details and casualties — confirm in Van Allen (1972) / Afigbo (1972).
+- [ ] **[110]** Uganda Railway labour figures — confirm in Hill (1949) and recent scholarship.
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.
