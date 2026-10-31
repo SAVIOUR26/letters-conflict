@@ -68,6 +68,16 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[109]** Women’s War details and casualties — confirm in Van Allen (1972) / Afigbo (1972).
 - [ ] **[110]** Uganda Railway labour figures — confirm in Hill (1949) and recent scholarship.
 
+## Chapter 8 · Freedom with Inherited Machinery
+- [ ] **[111]** Nkrumah independence speech — transcripts differ; check against recording/authoritative edition.
+- [ ] **[113]–[116]** Uganda 1962–67 (coalition, 1963 election, 1964 referendum, 1966 crisis dates, Mutesa quotation, 1967 constitution) — confirm in Mutesa, *Desecration of My Kingdom* (1967), Low (1971), Ingham (1994).
+- [ ] **[117]** OAU AHG/Res.16(I) — confirm against the AU archive text.
+- [ ] **[119]** 1993 restoration and Article 246 — confirm against the 1995 Constitution and the 1993 Statute.
+- [ ] **[120]** NEPAD’s own wording on “colonial legacies” etc. — confirm in the October 2001 framework document (currently via LaRRI 2003).
+- [ ] **[122]** Janssens’s blackboard wording and Congo chronology — confirm in Young (1965) / De Witte (2001).
+- [ ] **[123]** 2001 Belgian inquiry quotation and De Croo apology — confirm in the Chamber report and official text.
+- [ ] **[124]** Nyerere’s “two stages” quotation (Smith 1973, p. 87), abolition of chiefs’ posts, Africanisation figures, Swahili policy — confirm in Smith and Bjerk.
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.

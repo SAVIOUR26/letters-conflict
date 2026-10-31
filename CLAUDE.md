@@ -16,9 +16,10 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | Chapter 5 · The Grammar of African Power | Draft 1 done (~3,500 words, notes 75–89; reuses [11]). **Three `[AUTHOR]` placeholders on Kooki** |
 | Chapter 6 · The Markets of Captivity | Draft 1 done (~3,000 words, notes 90–99; reuses [11], [69], [75], [83]) |
 | Chapter 7 · Lines Drawn Across Living Worlds | Draft 1 done (~3,000 words, notes 100–110; reuses [75], [77]–[79], [82], [85]). **One `[AUTHOR]` placeholder on Kooki and the 1900 agreement** |
-| Chapters 8–11 | Not started — plan in `research/chapter_plan.md` |
-| **Next note number** | **111** |
-| **Next task** | **Chapter 8 · Freedom with Inherited Machinery** |
+| Chapter 8 · Freedom with Inherited Machinery | Draft 1 done (~2,700 words, notes 111–124; reuses [45], [78], [79], [100], [102], [103], [110]). **One `[AUTHOR]` placeholder on Kooki 1966–1993** |
+| Chapters 9–11 | Not started — plan in `research/chapter_plan.md` |
+| **Next note number** | **125** |
+| **Next task** | **Chapter 9 · When Power Became Greater Than Purpose** |
 | Covers | Not started. Original covers already exist (made earlier in ChatGPT); the author must supply the files. Do covers **after** the Origins manuscript is complete. |
 
 The author has asked for: **write every remaining Origins chapter (4 → 11), then the covers.**
