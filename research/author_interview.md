@@ -1,6 +1,6 @@
 # Author interview — Najuna Saviour
 
-Answer in your own words. Rough answers and voice-note transcripts are perfect — don’t polish them. These answers become the Introduction (“The Book I Started on Campus”), the Kooki material in Chapter 5, the classroom material in Chapter 10 and the closing of Chapter 11.
+Answer in your own words. Rough answers and voice-note transcripts are perfect — don’t polish them. These answers become the Introduction (“The Book I Started on Campus”), the classroom material in Chapter 10 and the closing of Chapter 11.
 
 ## The beginning
 1. Where were you studying when you first wrote about Letters Conflict, and roughly what year was it?
@@ -13,7 +13,7 @@ Answer in your own words. Rough answers and voice-note transcripts are perfect �
 
 ## Your own history
 6. How were you taught African history at school? What do you remember learning about Europe compared with Africa?
-7. What did you learn about Buganda, Kooki or other kingdoms at home, from elders, or in your work as a Kooki representative? Is there any story you’d be comfortable including?
+7. What did you learn about Buganda or other kingdoms at home or from elders? Is there any story you’d be comfortable including?
 8. Is there a moment when you first felt pride in, or shame about, the African past?
 
 ## The present

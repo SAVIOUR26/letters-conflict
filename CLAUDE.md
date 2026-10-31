@@ -13,16 +13,16 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | Chapter 2 · Nile, Kush, and the Horn | Draft 1 done (~3,200 words, notes 23–40) |
 | Chapter 3 · Gold, Manuscripts, and the Cities of Knowledge | Draft 1 done (~2,900 words, notes 41–56) |
 | Chapter 4 · Stone, Sea, and Bronze | Draft 1 done (~3,800 words, notes 57–74) |
-| Chapter 5 · The Grammar of African Power | Draft 1 done (~3,500 words, notes 75–89; reuses [11]). **Three `[AUTHOR]` placeholders on Kooki** |
-| Chapter 6 · The Markets of Captivity | Draft 1 done (~3,000 words, notes 90–99; reuses [11], [69], [75], [83]) |
-| Chapter 7 · Lines Drawn Across Living Worlds | Draft 1 done (~3,000 words, notes 100–110; reuses [75], [77]–[79], [82], [85]). **One `[AUTHOR]` placeholder on Kooki and the 1900 agreement** |
-| Chapter 8 · Freedom with Inherited Machinery | Draft 1 done (~2,700 words, notes 111–124; reuses [45], [78], [79], [100], [102], [103], [110]). **One `[AUTHOR]` placeholder on Kooki 1966–1993** |
-| Chapter 9 · When Power Became Greater Than Purpose | Draft 1 done (~2,500 words, notes 125–135; reuses [83], [112], [114], [121], [123], [124]) |
-| Chapter 10 · When Greatness Began to Sound Like a Fairy Tale | Draft 1 done (~2,500 words, notes 136–142; reuses [16], [38], [69], [74], [124]). **One `[AUTHOR]` placeholder on the author’s schooling** |
-| Chapter 11 · The Sentence We Inherited | Draft 1 done (~2,100 words + author material, notes 143–144; reuses many earlier notes). **Three `[AUTHOR]` placeholders (campus story, how the research changed him, an inherited habit from his own work)** |
-| Full draft | `drafts/Letters_Conflict_Origins_Chapters_1-11_Draft.docx` / `.pdf` (144 pp., ~33,000 words, notes 1–144 continuous) |
-| **Open `[AUTHOR]` placeholders** | 9 in total: Ch 5 (3, Kooki), Ch 7 (1, Kooki and the 1900 agreement), Ch 8 (1, Kooki 1966–93), Ch 10 (1, schooling), Ch 11 (3, campus and present) |
-| **Next note number** | **145** |
+| Chapter 5 · The Grammar of African Power | Draft 1 done (~3,500 words, notes 75–87; reuses [11]) |
+| Chapter 6 · The Markets of Captivity | Draft 1 done (~3,000 words, notes 88–97; reuses [11], [69], [75], [81]) |
+| Chapter 7 · Lines Drawn Across Living Worlds | Draft 1 done (~3,000 words, notes 98–108; reuses [75], [77], [78], [80], [83]) |
+| Chapter 8 · Freedom with Inherited Machinery | Draft 1 done (~2,700 words, notes 109–122; reuses [45], [78], [98], [100], [101], [108]) |
+| Chapter 9 · When Power Became Greater Than Purpose | Draft 1 done (~2,500 words, notes 123–133; reuses [81], [110], [112], [119], [121], [122]) |
+| Chapter 10 · When Greatness Began to Sound Like a Fairy Tale | Draft 1 done (~2,500 words, notes 134–140; reuses [16], [38], [69], [74], [122]). **One `[AUTHOR]` placeholder on the author’s schooling** |
+| Chapter 11 · The Sentence We Inherited | Draft 1 done (~2,100 words + author material, notes 141–142; reuses many earlier notes). **Three `[AUTHOR]` placeholders (campus story, how the research changed him, an inherited habit from his own work)** |
+| Full draft | `drafts/Letters_Conflict_Origins_Chapters_1-11_Draft.docx` / `.pdf` (~33,000 words, notes 1–142 continuous) |
+| **Open `[AUTHOR]` placeholders** | 4 in total: Ch 10 (1, schooling), Ch 11 (3, campus and present). Kooki material removed at the author’s request (31 Oct 2026) — keep the big picture |
+| **Next note number** | **143** |
 | **Next task** | **Introduction (“The Book I Started on Campus”) — needs the author’s interview answers; then front matter, appendices and covers** |
 | Covers | Not started. Original covers already exist (made earlier in ChatGPT); the author must supply the files. Do covers **after** the Origins manuscript is complete. |
 
@@ -156,7 +156,7 @@ npm run blueprint           # → drafts/Letters_Conflict_Origins_Blueprint.docx
 
 ## 10. Waiting on the author
 
-- Answers to `research/author_interview.md` → needed for the Introduction (“The Book I Started on Campus”) and for Chapter 5’s Kooki material. The author serves as a representative of **Kooki Kingdom** (Obwakamuswaga bwa Kooki), so Ch 5 should leave clearly marked `[AUTHOR: …]` placeholders for his own knowledge rather than guessing.
+- Answers to `research/author_interview.md` → needed for the Introduction (“The Book I Started on Campus”), Ch 10 (schooling) and Ch 11 (campus and present). **Decision (31 Oct 2026): no Kooki-specific material in *Origins*; keep the big picture.** The Great Lakes thread runs through Buganda and Bunyoro.
 - The original trilogy cover files and box-set mockup (made earlier in ChatGPT).
 - Confirmation of trim size (6 × 9 in default) and overall length.
 - Dedication and acknowledgments.

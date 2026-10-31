@@ -23,7 +23,6 @@ Everything below is a **research lead**, not verified fact. Confirm each item ag
 
 - **Buganda:** Kabaka, Katikkiro, Lukiiko, clans (bataka) and their totems, saza chiefs; Kabaka Mutesa I’s court (Stanley’s 1875 visit, already cited [13]); Apolo Kagwa’s *Basekabaka be Buganda* (1901) — Ganda history written by a Muganda.
 - **Bunyoro-Kitara:** older kingdom; Omukama; Kabalega and resistance (resistance itself belongs to Ch 7).
-- **Kooki:** `[AUTHOR: history of Kooki, its relationship with Buganda (reported 1896 agreement — verify), its institutions, what elders teach]`. Do not guess; leave placeholders.
 - **Decentralised societies:** the Igbo saying “Igbo enwe eze” (the Igbo have no king), age grades and village assemblies; E. E. Evans-Pritchard’s “ordered anarchy” among the Nuer (1940) — use carefully.
 - **Asante:** the Golden Stool as a symbol of the nation above any individual king (useful for the trilogy’s “office larger than the officer” theme).
 - **Ecology and density:** Jeffrey Herbst, *States and Power in Africa* (2000) — control of people rather than land; Marcella Alsan, “The Effect of the TseTse Fly on African Development,” *AER* 2015.

@@ -71,7 +71,7 @@ blocks: [
 
 ['rule'],
 ['p', 'A gold rhinoceros, a coral palace, a bronze head and a ditch in the forest: none of them was made by a single person, and none of them explains itself. Each is the trace of an arrangement among people who decided, under pressure and with unequal power, how to live and work together.'],
-['p', 'The next chapter asks how those arrangements of power were built: in kingdoms such as Buganda, Bunyoro, Kooki and Asante, and in societies that deliberately refused to have kings at all.'],
+['p', 'The next chapter asks how those arrangements of power were built: in kingdoms such as Buganda, Bunyoro and Asante, and in societies that deliberately refused to have kings at all.'],
 ['center', '*The letters remain. The question is the sentence.*'],
 ],
 };
