@@ -78,6 +78,15 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[123]** 2001 Belgian inquiry quotation and De Croo apology — confirm in the Chamber report and official text.
 - [ ] **[124]** Nyerere’s “two stages” quotation (Smith 1973, p. 87), abolition of chiefs’ posts, Africanisation figures, Swahili policy — confirm in Smith and Bjerk.
 
+## Chapter 9 · When Power Became Greater Than Purpose
+- [ ] **[125]** 1971 coup details; ~5,000 Langi/Acholi soldiers killed by 1972; “up to 300,000” killed under Amin (estimate) — confirm in Mutibwa (1992) / scholarly sources.
+- [ ] **[126]** Powell & Thyne coup counts (220/109; 1966 = seven) — refresh before publication.
+- [ ] **[127]** Togo 1963 details (Olympio’s killing; Eyadéma’s role) — confirm.
+- [ ] **[129]** Mobutu (authenticité, external support) — confirm in Young & Turner (1985).
+- [ ] **[132]–[133]** Botswana kgotla, 2024 election, Seretse Khama’s renunciation (1956) — confirm in Parsons et al. (1995) and electoral records.
+- [ ] **[134]** Benin National Conference details — confirm in a scholarly account.
+- [ ] **[135]** Structural adjustment effects — confirm in van de Walle (2001).
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.
