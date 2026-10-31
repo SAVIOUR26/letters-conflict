@@ -48,7 +48,7 @@ function chapterBlocks(ch) {
 function noteBlocks(chapters) {
   const out = [
     new Paragraph({ spacing: { before: 900, after: 200 }, children: [new TextRun({ text: 'Research Notes and Sources', size: 32, bold: true })] }),
-    new Paragraph({ spacing: { after: 200, line: 252 }, alignment: AlignmentType.JUSTIFIED, children: [new TextRun({ text: 'Notes identify the material used for factual statements and say what each source supports. Web sources were checked between 26 and 27 October 2026. In the finished book, notes are numbered continuously through all chapters.', size: 18, italics: true })] }),
+    new Paragraph({ spacing: { after: 200, line: 252 }, alignment: AlignmentType.JUSTIFIED, children: [new TextRun({ text: 'Notes identify the material used for factual statements and say what each source supports. Web sources were checked between 26 and 31 October 2026. In the finished book, notes are numbered continuously through all chapters.', size: 18, italics: true })] }),
   ];
   for (const ch of chapters) {
     out.push(new Paragraph({ keepNext: true, spacing: { before: 200, after: 120 }, children: [new TextRun({ text: `Chapter ${ch.chapter.num} · ${ch.chapter.title}`, size: 20, bold: true })] }));

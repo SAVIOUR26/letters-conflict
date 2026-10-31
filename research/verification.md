@@ -26,6 +26,18 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[46]** Niane’s *Sundiata* — confirm details used (exile, disability, Sumanguru, Krina c. 1235).
 - [ ] **[48]** Simonis and Jansen criticisms of the 1998 Kankan reconstruction — read the original articles.
 
+## Chapter 4 · Stone, Sea, and Bronze
+- [ ] **[57]** Date of Mowena’s guiding of the van Graan party (SAHO: 31 Dec 1932; other sources 1931) — check the University of Pretoria Mapungubwe Archive.
+- [ ] **[59]** Huffman quotation (“Mapungubwe’s architecture and spatial arrangement…”) and the K2/Mapungubwe account — currently via Zimbabwe Field Guide; confirm in Huffman 2000 (Goodwin Series 8) and Huffman 2009 (*JAA* 28).
+- [ ] **[62]** Kilwa’s control of Sofala (late 12th c.), confederal sultanate — Wikipedia lead; confirm in Chittick 1974 / Horton 2022.
+- [ ] **[63]** Ibn Battuta’s visit dated 1331; Husuni Kubwa details; identification of Abu’l-Muzaffar Hasan with al-Hasan ibn Sulaiman — confirm in Chittick 1974.
+- [ ] **[64]** Swahili classification, ~40% Arabic loanwords, 1711 Kilwa letters — Wikipedia lead; confirm in Nurse & Spear 1985.
+- [ ] **[65]** Swahili aDNA findings — currently via press release; confirm figures in Brielle et al., *Nature* 615 (2023).
+- [ ] **[66]** Frobenius quotations (via National Geographic) — confirm in *Und Afrika sprach* (1912) or its English translation *The Voice of Africa* (1913); Ekpo Eyo epigraph — confirm original publication.
+- [ ] **[67]** Ewuare reforms — Wikipedia lead; confirm in Egharevba / Bradbury.
+- [ ] **[68]** Igun-Eronmwon guild history — Wikipedia lead; confirm in Plankensteiner 2007.
+- [ ] **[69]** Ban on sale of male slaves after 1516; 1514 embassy — confirm in Ryder, *Benin and the Europeans* (1969).
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.
