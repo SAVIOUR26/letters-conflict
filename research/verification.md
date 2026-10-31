@@ -48,6 +48,16 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[83]** Asante constitution, ban under Osei Kwame, Osei Bonsu’s 1820 words — confirm in Wilks (1975) and Dupuis (1824).
 - [ ] **[86]** Fortes & Evans-Pritchard’s centralised/uncentralised distinction — confirm in the 1940 introduction.
 
+## Chapter 6 · The Markets of Captivity
+- [ ] **[90]** Afonso’s 1526 letter — confirm date (6 July 1526?) and wording in Thornton (2023), p. 203.
+- [ ] **[91]** Afonso’s wars, 410 slaves (1512), Kongolese laws, the 1526 committee — Wikipedia lead; confirm in Thornton (1981, 2009).
+- [ ] **[92]** Atlantic estimates (12.5m / 10.7m / 388,000; 1525–1866) — refresh against slavevoyages.org estimates before publication.
+- [ ] **[94]** Atorkor drummers (Akyeampong 2001) and Koelle table — confirm in originals.
+- [ ] **[95]** Lovejoy’s ~6 million trans-Saharan estimate (650–1500) — confirm in *Transformations in Slavery*.
+- [ ] **[97]** Tippu Tip — Wikipedia article flagged for machine-generated text; confirm every point in Sheriff (1987) and the *Maisha*.
+- [ ] **[98]** Njinga: flight of plantation slaves, expansion of slave trade in Matamba — confirm in Heywood (2017).
+- [ ] **[99]** Equiano/Carretta evidence and Lovejoy 2025 — confirm in Carretta (2005) and Lovejoy (2025).
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.
