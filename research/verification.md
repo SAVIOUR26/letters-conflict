@@ -87,6 +87,13 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[134]** Benin National Conference details — confirm in a scholarly account.
 - [ ] **[135]** Structural adjustment effects — confirm in van de Walle (2001).
 
+## Chapter 10 · When Greatness Began to Sound Like a Fairy Tale
+- [ ] **[136]** Benin 1897: Phillips’s title and request, Igue festival, Oba’s orders, Igbafe’s and Law’s arguments, six chiefs hanged — confirm in Igbafe (1979), Hicks (2020), Law (1985).
+- [ ] **[137]** Bronzes: BM ~900; “duplicate” sales 1950–72; Germany 1,130 (July 2022); Smithsonian 29 (11 Oct 2022); Horniman (Nov 2022); 2023 decree; MOWAA; RSG petition — confirm against official announcements.
+- [ ] **[139]** *Decolonising the Mind* quotations (“cultural bomb”, p. 3; “wastelands of non-achievement”) — confirm in the 1986 edition.
+- [ ] **[141]** Identify the original Guardian (2010) article quoted via HNN.
+- [ ] **[142]** 1947 agreement on the Aksum stele — confirm in the 1947 Treaty of Peace with Italy.
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.

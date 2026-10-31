@@ -18,9 +18,10 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | Chapter 7 · Lines Drawn Across Living Worlds | Draft 1 done (~3,000 words, notes 100–110; reuses [75], [77]–[79], [82], [85]). **One `[AUTHOR]` placeholder on Kooki and the 1900 agreement** |
 | Chapter 8 · Freedom with Inherited Machinery | Draft 1 done (~2,700 words, notes 111–124; reuses [45], [78], [79], [100], [102], [103], [110]). **One `[AUTHOR]` placeholder on Kooki 1966–1993** |
 | Chapter 9 · When Power Became Greater Than Purpose | Draft 1 done (~2,500 words, notes 125–135; reuses [83], [112], [114], [121], [123], [124]) |
-| Chapters 10–11 | Not started — plan in `research/chapter_plan.md` |
-| **Next note number** | **136** |
-| **Next task** | **Chapter 10 · When Greatness Began to Sound Like a Fairy Tale** |
+| Chapter 10 · When Greatness Began to Sound Like a Fairy Tale | Draft 1 done (~2,500 words, notes 136–142; reuses [16], [38], [69], [74], [124]). **One `[AUTHOR]` placeholder on the author’s schooling** |
+| Chapter 11 | Not started — plan in `research/chapter_plan.md` |
+| **Next note number** | **143** |
+| **Next task** | **Chapter 11 · The Sentence We Inherited** |
 | Covers | Not started. Original covers already exist (made earlier in ChatGPT); the author must supply the files. Do covers **after** the Origins manuscript is complete. |
 
 The author has asked for: **write every remaining Origins chapter (4 → 11), then the covers.**
