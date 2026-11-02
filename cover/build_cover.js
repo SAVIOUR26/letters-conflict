@@ -1,7 +1,7 @@
 // Letters Conflict: Origins — cover generator (original artwork, seeded and reproducible)
 // Concept (blueprint §7): "Fragments before understanding" — the letters A F R I C A carved into a
 // coursed dry-stone wall, broken across the joints, the last one sinking into laterite earth.
-// Usage: node cover/build_cover.js [pageCount=270] [paper=cream|white]
+// Usage: node cover/build_cover.js [pageCount=270] [paper=cream|white] [theme=dusk|laterite|ochre|charcoal|cream]
 //   -> cover/output/origins_cover_wrap.html / .pdf / .png (full KDP wrap with bleed)
 //   -> cover/output/origins_front_ebook.jpg (front only, 1600 x 2400 px)
 //   -> cover/output/origins_front_preview.png
@@ -16,10 +16,19 @@ const W = BLEED + TRIM_W + SPINE + TRIM_W + BLEED, H = TRIM_H + 2 * BLEED;
 const U = 100; // SVG units per inch
 const BACK_X = 0, SPINE_X = BLEED + TRIM_W, FRONT_X = SPINE_X + SPINE; // inches
 
-const C = {
-  bone: '#ECE4D4', ink: '#1F1B18', laterite: '#9A3B1F', deep: '#5E2213', ochre: '#B07A2E',
-  gold: '#7B5420', joint: '#2E2925', stones: ['#8F8A82', '#9C968D', '#A8A197', '#B3ACA2', '#857F77', '#A09689', '#958B7E'],
+const THEME = process.argv[4] || 'dusk'; // dusk | laterite | ochre | charcoal | cream
+// Palettes. Every theme keeps granite stone and red earth (the book's materials); the sky and type change.
+const GRANITE = ['#8F8A82', '#9C968D', '#A8A197', '#B3ACA2', '#857F77', '#A09689', '#958B7E'];
+const THEMES = {
+  cream:    { sky: ['#ECE4D4', '#ECE4D4', '#ECE4D4'], glow: null, title: '#1F1B18', series: '#9A3B1F', rule: '#B07A2E', sub: '#7B5420', text: '#1F1B18', head: '#9A3B1F', principle: '#7B5420', bio: '#7B5420', earth: ['#9A3B1F', '#5E2213'], onEarth: '#ECE4D4', book: '#E9C9A6', stones: GRANITE, edge: 'rgba(123,84,32,0.35)' },
+  dusk:     { sky: ['#10152A', '#2A2340', '#8C4A2B'], glow: '#F0A257', title: '#F3E6CC', series: '#E9A65C', rule: '#C98A45', sub: '#DDB67E', text: '#ECE1CD', head: '#EFAA60', principle: '#DDB67E', bio: '#EFAA60', earth: ['#93381A', '#2E1007'], onEarth: '#F3E6CC', book: '#E9B98A', stones: ['#9C8E80', '#A89887', '#908276', '#B3A28E', '#877B70', '#A2917E', '#958677'], edge: 'rgba(243,230,204,0.25)' },
+  laterite: { sky: ['#7E3019', '#9C4224', '#B7592F'], glow: null, title: '#F6EBDA', series: '#F3CC8C', rule: '#F3CC8C', sub: '#F7DDB2', text: '#F8EDDD', head: '#FFE0AA', principle: '#F7DDB2', bio: '#FFE0AA', earth: ['#3E1D11', '#170A05'], onEarth: '#F6EBDA', book: '#E8B98F', stones: GRANITE, edge: 'rgba(246,235,218,0.3)' },
+  ochre:    { sky: ['#C98F2E', '#DDAA4C', '#EAC57E'], glow: '#FFF1C9', title: '#24170E', series: '#7A2C14', rule: '#7A2C14', sub: '#5A3214', text: '#24170E', head: '#7A2C14', principle: '#5A3214', bio: '#7A2C14', earth: ['#9A3B1F', '#4F1C0E'], onEarth: '#F7E7C8', book: '#F1CDA0', stones: GRANITE, edge: 'rgba(36,23,14,0.3)' },
+  charcoal: { sky: ['#161412', '#1F1C19', '#2C2723'], glow: null, title: '#E9D3A0', series: '#D07A33', rule: '#B9873F', sub: '#CDAA6A', text: '#E7DECF', head: '#E2A55E', principle: '#CDAA6A', bio: '#E2A55E', earth: ['#93381A', '#4A190B'], onEarth: '#EFE3CC', book: '#E9B98A', stones: GRANITE, edge: 'rgba(233,211,160,0.25)' },
 };
+if (!THEMES[THEME]) throw new Error('Unknown theme ' + THEME + '; choose ' + Object.keys(THEMES).join(', '));
+const T = THEMES[THEME];
+const C = { joint: '#2E2925', stones: T.stones, laterite: T.earth[0], deep: T.earth[1] };
 
 // ---------- seeded random ----------
 let seed = 1871; // the year Mauch reached Great Zimbabwe
@@ -129,6 +138,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${(W * U).toFi
     <feComposite in="d" in2="SourceGraphic" operator="in" result="s"/>
     <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="s"/></feMerge>
   </filter>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${T.sky[0]}"/><stop offset="0.45" stop-color="${T.sky[1]}"/><stop offset="0.8" stop-color="${T.sky[2]}"/></linearGradient>
+  <radialGradient id="glowG"><stop offset="0" stop-color="${T.glow || '#000'}" stop-opacity="0.55"/><stop offset="0.6" stop-color="${T.glow || '#000'}" stop-opacity="0.15"/><stop offset="1" stop-color="${T.glow || '#000'}" stop-opacity="0"/></radialGradient>
   <linearGradient id="earthG" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="${C.laterite}"/><stop offset="1" stop-color="${C.deep}"/>
   </linearGradient>
@@ -147,7 +158,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${(W * U).toFi
     .frag { font-family: 'EBG'; font-weight: 600; font-size: 84px; fill: #2A2521; fill-opacity: 0.8; }
   </style>
 </defs>
-<rect width="100%" height="100%" fill="${C.bone}" filter="url(#paper)"/>
+<rect width="100%" height="100%" fill="url(#sky)" filter="url(#paper)"/>
+${T.glow ? `<ellipse cx="${((FRONT_X + TRIM_W / 2 + 0.2) * U).toFixed(1)}" cy="${(wallTop + 40).toFixed(1)}" rx="${(3.6 * U).toFixed(1)}" ry="${(1.9 * U).toFixed(1)}" fill="url(#glowG)"/>` : ''}
 <g clip-path="url(#frontPanel)">
   <g filter="url(#grain)">
     ${(() => { const minTop = Math.min(...stones.map(s => s.y)); return ''; })()}
@@ -184,36 +196,36 @@ const html = (mode) => `<!doctype html><html><head><meta charset="utf-8"><title>
 @font-face { font-family: 'EBG'; font-style: italic; font-weight: 400; src: url(${ff('eb-garamond-latin-400-italic.woff2')}); }
 @page { size: ${W}in ${H}in; margin: 0; }
 html, body { margin: 0; padding: 0; }
-body { width: ${W}in; height: ${H}in; position: relative; overflow: hidden; font-family: 'EBG', serif; color: ${C.ink}; background: ${C.bone}; }
+body { width: ${W}in; height: ${H}in; position: relative; overflow: hidden; font-family: 'EBG', serif; color: ${T.text}; background: ${T.sky[1]}; }
 .art { position: absolute; left: 0; top: 0; }
 .abs { position: absolute; }
 .track { letter-spacing: 0.32em; }
 /* front */
-.series { left: ${FRONT_X + 0.5}in; width: ${TRIM_W - 1}in; top: ${BLEED + 0.62}in; text-align: center; font-size: 15pt; font-weight: 500; color: ${C.laterite}; letter-spacing: 0.42em; padding-left: 0.42em; }
-.rule { left: ${FRONT_X + 2.35}in; width: 1.3in; top: ${BLEED + 1.0}in; border-top: 1.2pt solid ${C.ochre}; }
+.series { left: ${FRONT_X + 0.5}in; width: ${TRIM_W - 1}in; top: ${BLEED + 0.62}in; text-align: center; font-size: 15pt; font-weight: 500; color: ${T.series}; letter-spacing: 0.42em; padding-left: 0.42em; }
+.rule { left: ${FRONT_X + 2.35}in; width: 1.3in; top: ${BLEED + 1.0}in; border-top: 1.2pt solid ${T.rule}; }
 .title { left: ${FRONT_X}in; width: ${TRIM_W + BLEED}in; top: ${BLEED + 1.08}in; text-align: center; font-size: 84pt; font-weight: 600; letter-spacing: 0.06em; line-height: 1; }
-.sub { left: ${FRONT_X + 0.4}in; width: ${TRIM_W - 0.8}in; top: ${BLEED + 2.42}in; text-align: center; font-size: 21pt; font-style: italic; color: ${C.gold}; }
-.book { left: ${FRONT_X + 0.5}in; width: ${TRIM_W - 1}in; top: ${BLEED + 8.03}in; text-align: center; font-size: 10.5pt; letter-spacing: 0.5em; padding-left: 0.5em; color: #E9C9A6; }
-.author { left: ${FRONT_X + 0.3}in; width: ${TRIM_W - 0.6}in; top: ${BLEED + 8.25}in; text-align: center; font-size: 23pt; font-weight: 500; letter-spacing: 0.34em; padding-left: 0.34em; color: ${C.bone}; }
+.sub { left: ${FRONT_X + 0.4}in; width: ${TRIM_W - 0.8}in; top: ${BLEED + 2.42}in; text-align: center; font-size: 21pt; font-style: italic; color: ${T.sub}; }
+.book { left: ${FRONT_X + 0.5}in; width: ${TRIM_W - 1}in; top: ${BLEED + 8.03}in; text-align: center; font-size: 10.5pt; letter-spacing: 0.5em; padding-left: 0.5em; color: ${T.book}; }
+.author { left: ${FRONT_X + 0.3}in; width: ${TRIM_W - 0.6}in; top: ${BLEED + 8.25}in; text-align: center; font-size: 23pt; font-weight: 500; letter-spacing: 0.34em; padding-left: 0.34em; color: ${T.onEarth}; }
 /* spine */
 .spine { left: ${SPINE_X}in; width: ${SPINE}in; top: 0; height: ${H}in; }
 .spine .v { position: absolute; left: 50%; transform-origin: 0 0; transform: rotate(90deg) translateY(-50%); white-space: nowrap; line-height: 1; }
-.spine .s1 { top: ${BLEED + 0.45}in; font-size: 9pt; letter-spacing: 0.3em; color: ${C.laterite}; font-weight: 500; }
+.spine .s1 { top: ${BLEED + 0.45}in; font-size: 9pt; letter-spacing: 0.3em; color: ${T.series}; font-weight: 500; }
 .spine .s2 { top: ${BLEED + 2.45}in; font-size: 21pt; font-weight: 600; letter-spacing: 0.12em; }
-.spine .s3 { top: ${BLEED + 4.75}in; font-size: 11pt; letter-spacing: 0.28em; color: ${C.ink}; font-weight: 500; }
-.spine .mark { position: absolute; top: ${BLEED + 8.42}in; width: 100%; text-align: center; font-size: 7pt; letter-spacing: 0.1em; color: #E9C9A6; }
-.spineEdge { position: absolute; top: 0; height: ${H}in; border-left: 0.6pt solid rgba(123,84,32,0.35); }
+.spine .s3 { top: ${BLEED + 4.75}in; font-size: 11pt; letter-spacing: 0.28em; color: ${T.title}; font-weight: 500; }
+.spine .mark { position: absolute; top: ${BLEED + 8.42}in; width: 100%; text-align: center; font-size: 7pt; letter-spacing: 0.1em; color: ${T.book}; }
+.spineEdge { position: absolute; top: 0; height: ${H}in; border-left: 0.6pt solid ${T.edge}; }
 /* back */
 .back { left: ${BLEED + 0.55}in; width: ${TRIM_W - 1.1}in; top: ${BLEED + 0.5}in; }
-.head { font-size: 19.5pt; font-weight: 600; color: ${C.laterite}; text-align: center; letter-spacing: 0.06em; line-height: 1.15; margin-bottom: 0.2in; }
+.head { font-size: 19.5pt; font-weight: 600; color: ${T.head}; text-align: center; letter-spacing: 0.06em; line-height: 1.15; margin-bottom: 0.2in; }
 .back p { font-size: 11.6pt; line-height: 1.32; margin: 0 0 0.11in; text-align: left; }
-.back p.principle { font-style: italic; text-align: center; color: ${C.gold}; font-size: 12.4pt; margin-top: 0.14in; }
+.back p.principle { font-style: italic; text-align: center; color: ${T.principle}; font-size: 12.4pt; margin-top: 0.14in; }
 .bio { display: flex; gap: 0.18in; margin-top: 0.2in; align-items: flex-start; }
 .bio img { width: 1.05in; height: 1.32in; object-fit: cover; }
-.bio .n { font-size: 14pt; font-weight: 600; letter-spacing: 0.08em; color: ${C.gold}; margin-bottom: 0.03in; }
+.bio .n { font-size: 14pt; font-weight: 600; letter-spacing: 0.08em; color: ${T.bio}; margin-bottom: 0.03in; }
 .bio .r { font-size: 10.5pt; margin-bottom: 0.06in; }
 .bio .t { font-size: 10.5pt; line-height: 1.3; }
-.pub { left: ${BLEED + 0.55}in; top: ${BLEED + 7.95}in; width: 2.9in; font-size: 9.5pt; line-height: 1.35; color: ${C.bone}; }
+.pub { left: ${BLEED + 0.55}in; top: ${BLEED + 7.95}in; width: 2.9in; font-size: 9.5pt; line-height: 1.35; color: ${T.onEarth}; }
 .barcode { left: ${BLEED + TRIM_W - 0.25 - 2}in; top: ${BLEED + TRIM_H - 0.25 - 1.2}in; width: 2in; height: 1.2in; background: #fff; display: flex; align-items: center; justify-content: center; font-size: 7.5pt; color: #999; letter-spacing: 0.1em; }
 /* guides (preview only) */
 .guide { position: absolute; border: 0.75pt dashed rgba(0,140,255,0.7); pointer-events: none; }
@@ -251,8 +263,8 @@ ${mode === 'preview' ? `<div class="guide" style="left:${BLEED}in;top:${BLEED}in
 
 const out = path.join(__dirname, 'output');
 fs.mkdirSync(out, { recursive: true });
-fs.writeFileSync(path.join(out, 'origins_cover_wrap.html'), html('print'));
-fs.writeFileSync(path.join(out, 'origins_cover_preview.html'), html('preview'));
+fs.writeFileSync(path.join(out, `origins_${THEME}_cover_wrap.html`), html('print'));
+fs.writeFileSync(path.join(out, `origins_${THEME}_cover_preview.html`), html('preview'));
 
 (async () => {
   const { chromium } = require('playwright');
@@ -260,18 +272,18 @@ fs.writeFileSync(path.join(out, 'origins_cover_preview.html'), html('preview'));
   const pxW = Math.round(W * 96), pxH = Math.round(H * 96);
   for (const mode of ['print', 'preview']) {
     const page = await browser.newPage({ viewport: { width: pxW, height: pxH }, deviceScaleFactor: 300 / 96 });
-    await page.goto('file://' + path.join(out, mode === 'print' ? 'origins_cover_wrap.html' : 'origins_cover_preview.html'));
+    await page.goto('file://' + path.join(out, mode === 'print' ? `origins_${THEME}_cover_wrap.html` : `origins_${THEME}_cover_preview.html`));
     await page.evaluate(() => document.fonts.ready);
     if (mode === 'print') {
-      await page.pdf({ path: path.join(out, 'origins_cover_wrap.pdf'), width: W + 'in', height: H + 'in', printBackground: true, pageRanges: '1' });
-      await page.screenshot({ path: path.join(out, 'origins_cover_wrap.png'), fullPage: false });
+      await page.pdf({ path: path.join(out, `origins_${THEME}_cover_wrap.pdf`), width: W + 'in', height: H + 'in', printBackground: true, pageRanges: '1' });
+      await page.screenshot({ path: path.join(out, `origins_${THEME}_cover_wrap.png`), fullPage: false });
       // front panel only, trimmed (no bleed): 6 x 9 in
-      await page.screenshot({ path: path.join(out, 'origins_front_trim.png'), clip: { x: FRONT_X * 96, y: BLEED * 96, width: TRIM_W * 96, height: TRIM_H * 96 } });
+      await page.screenshot({ path: path.join(out, `origins_${THEME}_front_trim.png`), clip: { x: FRONT_X * 96, y: BLEED * 96, width: TRIM_W * 96, height: TRIM_H * 96 } });
     } else {
-      await page.screenshot({ path: path.join(out, 'origins_cover_preview.png') });
+      await page.screenshot({ path: path.join(out, `origins_${THEME}_cover_preview.png`) });
     }
     await page.close();
   }
   await browser.close();
-  console.log(`spine ${SPINE} in (${PAGES} pp, ${PAPER}); wrap ${W.toFixed(3)} x ${H} in`);
+  console.log(`theme ${THEME}; spine ${SPINE} in (${PAGES} pp, ${PAPER}); wrap ${W.toFixed(3)} x ${H} in`);
 })();
