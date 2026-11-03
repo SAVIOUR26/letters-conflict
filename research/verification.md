@@ -94,6 +94,12 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] **[141]** Zimbabwe Bird handover (14–15 April 2026; “temporary relocation pending legislative processes”) — confirm current legal status before publication.
 - [ ] **[142]** Posselt (1889), Bent’s count, 1981 exchange, 2003 Berlin return — confirm in Matenga (1998) and museum records.
 
+## Front matter and Introduction
+- [ ] **Dedication** — proposed text; author to confirm or replace.
+- [ ] **Introduction** — author to confirm: that his first question was why Africa seemed “dark and far from civilisation” (from his own words in the earlier planning conversation), that the book began as pages written as a student, and the passage on how his view changed. Fill the `[AUTHOR]` campus box.
+- [ ] **Acknowledgments** — add any names the author wishes.
+- [ ] **Copyright page** — ISBN, final edition year, and the KDP AI-content disclosure decision.
+
 ## Whole book
 - [ ] Specialist read of the factual chapters by a historian (ideally Makerere University).
 - [ ] Fact freeze: refresh any contemporary figures once, just before typesetting.

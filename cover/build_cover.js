@@ -14,6 +14,8 @@ const SPINE = +(PAGES * (PAPER === 'white' ? 0.002252 : 0.0025)).toFixed(4); // 
 const BLEED = 0.125, TRIM_W = 6, TRIM_H = 9;
 const W = BLEED + TRIM_W + SPINE + TRIM_W + BLEED, H = TRIM_H + 2 * BLEED;
 const U = 100; // SVG units per inch
+// spine type scales with spine width so it stays 1/16 in clear of the folds (KDP)
+const SK = Math.min(1, SPINE / 0.675);
 const BACK_X = 0, SPINE_X = BLEED + TRIM_W, FRONT_X = SPINE_X + SPINE; // inches
 
 const THEME = process.argv[4] || 'dusk'; // dusk | laterite | ochre | charcoal | cream
@@ -210,10 +212,10 @@ body { width: ${W}in; height: ${H}in; position: relative; overflow: hidden; font
 /* spine */
 .spine { left: ${SPINE_X}in; width: ${SPINE}in; top: 0; height: ${H}in; }
 .spine .v { position: absolute; left: 50%; transform-origin: 0 0; transform: rotate(90deg) translateY(-50%); white-space: nowrap; line-height: 1; }
-.spine .s1 { top: ${BLEED + 0.45}in; font-size: 9pt; letter-spacing: 0.3em; color: ${T.series}; font-weight: 500; }
-.spine .s2 { top: ${BLEED + 2.45}in; font-size: 21pt; font-weight: 600; letter-spacing: 0.12em; }
-.spine .s3 { top: ${BLEED + 4.75}in; font-size: 11pt; letter-spacing: 0.28em; color: ${T.title}; font-weight: 500; }
-.spine .mark { position: absolute; top: ${BLEED + 8.42}in; width: 100%; text-align: center; font-size: 7pt; letter-spacing: 0.1em; color: ${T.book}; }
+.spine .s1 { top: ${BLEED + 0.45}in; font-size: ${(9 * SK).toFixed(1)}pt; letter-spacing: 0.3em; color: ${T.series}; font-weight: 500; }
+.spine .s2 { top: ${BLEED + 2.45}in; font-size: ${(21 * SK).toFixed(1)}pt; font-weight: 600; letter-spacing: 0.12em; }
+.spine .s3 { top: ${BLEED + 4.75}in; font-size: ${(11 * SK).toFixed(1)}pt; letter-spacing: 0.28em; color: ${T.title}; font-weight: 500; }
+.spine .mark { top: ${BLEED + 7.6}in; font-size: ${(7.5 * SK).toFixed(1)}pt; letter-spacing: 0.12em; color: ${T.book}; }in; width: 100%; text-align: center; font-size: 7pt; letter-spacing: 0.1em; color: ${T.book}; }
 .spineEdge { position: absolute; top: 0; height: ${H}in; border-left: 0.6pt solid ${T.edge}; }
 /* back */
 .back { left: ${BLEED + 0.55}in; width: ${TRIM_W - 1.1}in; top: ${BLEED + 0.5}in; }
@@ -243,7 +245,7 @@ body { width: ${W}in; height: ${H}in; position: relative; overflow: hidden; font
   <div class="v s1">LETTERS CONFLICT</div>
   <div class="v s2">ORIGINS</div>
   <div class="v s3">NAJUNA SAVIOUR</div>
-  <div class="mark">KANDANEWS</div>
+  <div class="v mark">KANDANEWS</div>
 </div>
 <div class="spineEdge" style="left:${SPINE_X}in"></div><div class="spineEdge" style="left:${FRONT_X}in"></div>
 

@@ -8,7 +8,9 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 |---|---|
 | Book blueprint (Origins) | Version 2 done — `build/blueprint.js` → `drafts/Letters_Conflict_Origins_Blueprint.docx` |
 | A Note to the Reader | Done (inside `manuscript/origins/ch01.js`, export `note`) |
-| Introduction | **Not written — needs the author’s interview answers** (`research/author_interview.md`) |
+| Front and back matter | Draft 1 done in `manuscript/origins/frontmatter.js`, modelled on *The Japanese Way*: title page, copyright, **dedication (proposed — author to confirm)**, acknowledgments, contents, Introduction, Part pages, Chapter Quotations, About the Author, Also by |
+| Introduction (“The Book I Started on Campus”) | Draft 1 done (~1,600 words). One `[AUTHOR]` box for the campus scene; lines about the author’s first question and change of mind to be confirmed by him |
+| **Print proof** | `npm run proof` → `drafts/Letters_Conflict_Origins_Proof.pdf` (152 pp., 6 × 9 in, EB Garamond embedded, contents with real page numbers, chapters on right-hand pages). `npm run edition` builds the final (no proof marks) |
 | Chapter 1 · The Story Before the Wound | Draft 2 done (~3,800 words, notes 1–22) |
 | Chapter 2 · Nile, Kush, and the Horn | Draft 1 done (~3,200 words, notes 23–40) |
 | Chapter 3 · Gold, Manuscripts, and the Cities of Knowledge | Draft 1 done (~2,900 words, notes 41–56) |
@@ -21,10 +23,10 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | Chapter 10 · When Greatness Began to Sound Like a Fairy Tale | Draft 1 done (~2,500 words, notes 134–140; reuses [16], [38], [69], [74], [122]). **One `[AUTHOR]` placeholder on the author’s schooling** |
 | Chapter 11 · The Sentence We Inherited | Draft 1 done (~2,100 words + author material, notes 141–142; reuses many earlier notes). **Three `[AUTHOR]` placeholders (campus story, how the research changed him, an inherited habit from his own work)** |
 | Full draft | `drafts/Letters_Conflict_Origins_Chapters_1-11_Draft.docx` / `.pdf` (~33,000 words, notes 1–142 continuous) |
-| **Open `[AUTHOR]` placeholders** | 4 in total: Ch 10 (1, schooling), Ch 11 (3, campus and present). Kooki material removed at the author’s request (31 Oct 2026) — keep the big picture |
+| **Open `[AUTHOR]` placeholders** | 5 in total: Introduction (1, campus scene), Ch 10 (1, schooling), Ch 11 (3, campus and present). In the proof they print as shaded boxes headed “Author’s passage to come”. Kooki material removed at the author’s request (31 Oct 2026) — keep the big picture |
 | **Next note number** | **143** |
-| **Next task** | **Introduction (“The Book I Started on Campus”) — needs the author’s interview answers; then front matter, appendices and covers** |
-| Covers | Not started. Original covers already exist (made earlier in ChatGPT); the author must supply the files. Do covers **after** the Origins manuscript is complete. |
+| **Next task** | **Author reads the printed proof; then fill the `[AUTHOR]` boxes, confirm the dedication, and run the verification list** |
+| Covers | Draft 1 in `cover/` (generator `cover/build_cover.js`; palettes dusk/laterite/ochre/charcoal/cream; **dusk** currently preferred). Wrap regenerated for 152 pp (spine 0.38 in). Replace the low-res author photo before print |
 
 Chapters 4–11 were drafted on 31 October 2026. Ch 8–11 run shorter (~2,000–2,700 words) by design; the author’s own material will deepen them. Every Wikipedia-led or secondary point is listed in `research/verification.md`. The author has asked next for: **the Introduction, front matter and covers.**
 
@@ -44,7 +46,7 @@ Chapters 4–11 were drafted on 31 October 2026. Ch 8–11 run shorter (~2,000�
 - **Core principle:** History explains the arrangement we inherited. It does not decide the arrangement we must keep.
 - **Primary reader:** young African adults (18–35), students, graduates, young professionals and entrepreneurs. Secondary: diaspora, teachers, civil servants, church and community leaders, policymakers.
 - **Release:** all three books together (target August–September 2027).
-- **Format:** 6 × 9 in paperback (matches the author’s published *The Japanese Way*), EB Garamond, Kindle EPUB from the same text.
+- **Format:** 6 × 9 in paperback (matches the author’s published *The Japanese Way*), EB Garamond, Kindle EPUB from the same text. **Interior matches *The Japanese Way* (author’s request, 3 Nov 2026):** 12 pt EB Garamond, ~1.15 line spacing, flush justified paragraphs with a small space after (no first-line indent), inside margin 0.85 in, outside 0.7 in, running heads (book title left, section right), centred page numbers, roman front matter, Part pages followed by a blank page.
 - **Length:** chapters are running ~3,000–4,000 words (similar to *The Japanese Way*). Do not pad. Depth will be added through the author’s own voice (Introduction, Part openings, Chapter 11).
 
 ## 3. Origins — the 11 chapters (locked)
@@ -137,9 +139,12 @@ module.exports.notes = [
 npm install                 # docx 9.5.1 and jszip 3.10.1 (pinned)
 npm run build               # → drafts/Letters_Conflict_Origins_Chapters_1-N_Draft.docx
 npm run blueprint           # → drafts/Letters_Conflict_Origins_Blueprint.docx
+npm run proof               # → drafts/Letters_Conflict_Origins_Proof.docx/.pdf (print proof, house style of The Japanese Way)
+npm run edition             # → drafts/Letters_Conflict_Origins_Edition.docx/.pdf (final, no proof marks)
+node cover/build_cover.js 152 cream dusk   # cover wrap for the real page count
 ```
 
-- Install the **EB Garamond** font (Google Fonts) on the machine, or Word will substitute another face.
+- Install the **EB Garamond** font (Google Fonts) on the machine, or Word/LibreOffice will substitute another face. Check `pdffonts` shows EBGaramond in the PDF before printing.
 - To produce a PDF for checking: `soffice --headless --convert-to pdf <file>.docx` (LibreOffice), or open in Word and export.
 - The builder sets 6 × 9 in pages, mirrored margins (inside 0.75 in, outside 0.6 in), chapters starting on right-hand pages, no header on chapter-opening pages, book title on left-hand headers, chapter number on right-hand headers, indented paragraphs with no space between them.
 - **Always open or render the result and look at it** before calling a chapter done.

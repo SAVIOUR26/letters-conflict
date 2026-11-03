@@ -5,7 +5,9 @@
   "description": "Letters Conflict trilogy by Najuna Saviour (KandaNews Africa Co. Ltd): manuscript sources and KDP-ready build scripts",
   "scripts": {
     "build": "node build/build_book.js",
-    "blueprint": "node build/blueprint.js"
+    "blueprint": "node build/blueprint.js",
+    "proof": "node build/build_edition.js",
+    "edition": "node build/build_edition.js --final"
   },
   "dependencies": {
     "docx": "9.5.1",
