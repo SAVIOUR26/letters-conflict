@@ -12,7 +12,7 @@
 4. **Graduate as a working team.** Imagine engineering graduates leaving university as a registered company, ready to build village roads; agriculture graduates as a farming cooperative; baking graduates as a bakery — incorporated, equipped and given government contracts from day one.
 5. **Make what we use.** Why don’t steel works make lorries, spare parts, rail lines and wagons here? Bring in professionals to build these industries.
 6. **Money that circulates.** Specialisation and interdependence: people make things for one another, earn, invest, and the state directs the effort.
-7. **Everyone working.** Policies under which everyone has work — and idleness is illegal, with idle people arrested and sent to government facilities to work, casually or professionally, for pay.
+7. **Everyone working — and no youth left to the gangs** *(clarified by the author, 4 Nov 2026)*. Everyone should have a chance to work; no one should be left idle. The author has in mind the **kifeesi**: gangs of young men in Kampala's slums who rob people at night, sometimes killing someone for a phone or money for a chapati, and who are themselves sometimes killed in robberies. Arresting them and filling prisons hasn't solved it. The state should say *no* to the gangs by turning these young people into productive workers.
 8. **The call.** The time has come for Africa to rise. These things need a pause and a redesign.
 
 ## 2. Where each idea belongs in the trilogy
@@ -34,16 +34,22 @@
 
 **Idea 5 needs both kinds of evidence.** State-led industry has produced national champions in some countries and decades of stalled, debt-financed plants in others, including in Africa. Uganda’s own state vehicle maker is an obvious case study. The Bureau’s case is stronger if it explains the *difference* — management, accountability, markets, power supply, skills — rather than assuming that building a factory is enough. (Research leads: the history of state steel projects in Africa and Asia; Uganda’s vehicle-manufacturing effort. All to be verified.)
 
-**Idea 7 — compulsory work enforced by arrest — I recommend rewriting.** The goal (no one wasted, everyone with paid work) is right. The method would undermine the whole trilogy:
+**Idea 7, as clarified: from kifeesi to workforce.** The author's aim is not to punish idleness but to stop a cycle: young men in slums, no work, gangs, robbery, death or prison, and then release back to the same street. That is a strong chapter and a strong episode. Its strength is that real evidence exists, including from Uganda:
 
-- **It is unlawful in Uganda.** Article 25(2) of the 1995 Constitution says: “No person shall be required to perform forced labour,” with narrow exceptions such as work ordered by a court sentence. The Employment Act 2006 also prohibits forced labour. ([ULII — Constitution](https://ulii.org/akn/ug/act/statute/1995/constitution); [WageIndicator summary](https://wageindicator.org/en-ug/work-in-uganda/labour-law/fair-treatment/forced-labour) — confirm against the current amended text.)
-- ***Origins* itself documents where this leads.** The 1900 Buganda Agreement let tax be paid “in produce or in labour”; German East Africa forced villages to grow cotton, and the result was Maji Maji and famine (Chapter 7). Compulsory labour was a tool of conquest. Readers will notice.
-- **It breaks the trilogy’s locked principle:** *no ruler, reformer or author may arrange people as passive letters.* A state that arrests the idle is arranging letters by force.
-- **It would be abused.** Whoever decides who is “idle” — the unemployed graduate, the street vendor, the opposition supporter — holds dangerous power. That is Chapter 9’s warning.
+- **Prison does not turn them into workers; transformation can.** In Monrovia, Liberia, researchers worked with 999 high-risk young men, many already involved in crime. Eight weeks of group cognitive behavioural therapy, which builds self-control and a new, non-criminal identity, followed by a $200 cash grant, reduced crime and violence durably. The therapy alone and the cash alone each worked at first but faded. Ten years later, therapy plus cash still cut antisocial behaviour, and the men largely invested and saved the cash. (Blattman, Jamison and Sheridan, *American Economic Review* 107(4), 2017; ten-year follow-up, NBER Working Paper 30049, 2022. [J-PAL summary PDF](https://www.povertyactionlab.org/sites/default/files/publications/1007_CBT-Liberia-AER-Apr2017.pdf); [NBER w30049](https://www.nber.org/system/files/working_papers/w30049/w30049.pdf). Confirm figures against the papers.)
+- **Uganda has already shown that youth groups can become tradespeople.** Under the Youth Opportunities Program in northern Uganda, launched in 2006, young people aged 16–35 formed groups of about 22 and applied for cash to pay for training and tools. Groups were chosen by lottery, and each member received about UGX 673,000. Four years later, recipients earned 41% more and were 65% more likely to practise a skilled trade. After nine years the others had caught up, so the grants worked as a *kick-start*. (Blattman, Fiala and Martinez, *Quarterly Journal of Economics* 129(2), 2014. [J-PAL summary](https://www.povertyactionlab.org/node/2021). Confirm against the paper.)
+- **Uganda's law already allows work instead of prison, but it is underused.** The Community Service Act 2000 (in force from October 2001) lets a court order an offender convicted of a minor offence to do community service instead of going to prison, with the offender's consent. The Ministry of Internal Affairs runs it. Studies and reports describe slow uptake, too few supervisors and weak compliance. ([ULII — Act](https://ulii.org/akn/ug/act/2000/5); [Ministry of Internal Affairs](https://www.mia.go.ug/departments/department-community-service); [Uganda Radio Network](https://ugandaradionetwork.net/story/community-service-failing-in-kitgum-magistrate).) Court-ordered work is also one of the exceptions in Article 25(3) of the Constitution.
 
-**A stronger alternative: a *right* to work, not a duty enforced by the police.** The state guarantees that anyone who wants paid work can get it — on roads, irrigation, schools, food production — at a fair wage, close to home. People choose it because it pays and builds something. Precedent to study: India’s rural employment guarantee (2005), which legally entitled rural households to ask for 100 days of paid work a year. Its record is mixed: many households got far fewer days, wages were often paid late, and the scheme was replaced by new legislation in 2025. That mix is exactly what the Bureau should learn from. ([Down to Earth](https://www.downtoearth.org.in/governance/mgnrega-may-have-been-replaced-but-its-significance-in-rural-areas-is-undeniable); [Factly](https://factly.in/average-days-of-employment-per-household-under-mnrega-less-than-50-in-2020-21) — verify against official sources.)
+**A possible Bureau programme — "From Kifeesi to Workforce":**
+1. **Courts:** for minor offences, send young offenders to supervised, *paid*, skills-building community work instead of prison, by fully funding the existing Community Service Act.
+2. **Transformation:** a short group programme like Liberia's, delivered by trained facilitators, including reformed former gang members.
+3. **A start:** a grant or tools paid in stages, plus a place in a registered youth enterprise group (the idea 4 model).
+4. **Guaranteed work in the slum itself:** paid public works such as drainage, roads, waste collection, street lighting and market stalls. The neighbourhood sees the same young men building it.
+5. **Measure it:** track reoffending, earnings and safety, district by district, and publish the results.
 
-The line for the book could be: ***Make work available, paid and worth doing — and idleness will shrink without a single arrest.***
+The line for the book could be: ***A young man who robs for a chapati is not a lost letter. He is a letter the sentence never made room for.***
+
+*(For the record: the earlier version of this note warned against compulsory work enforced by arrest. Article 25(2) of the Constitution bars forced labour except, among others, work ordered by a court. The author's clarified idea of offering work and transformation instead of prison fits the law and the trilogy's principles.)*
 
 ## 4. Facts to establish before anything is published
 
@@ -54,6 +60,9 @@ The line for the book could be: ***Make work available, paid and worth doing —
 | The real cost of education to families | UBOS household surveys on education spending; university fees | To research |
 | Earnings after graduation | UBOS reports on earnings (a press report says over half of workers earn under UGX 200,000 a month) | **Verify** |
 | Road, food and housing gaps | Uganda National Roads Authority, the Ministry of Agriculture, the World Bank and FAO | To research |
+| Kifeesi: origins, scale and areas | Police say kifeesi dates from the early 2000s; press reports of arrests in Kampala and Mukono, with bases in Katwe-Kinyoro ([The Independent](https://independent.co.ug/tag/kifeesi)) | **Verify with Uganda Police statements** |
+| Robbery cases nationally | Police figure reported for 2025: 7,863 robbery cases, down 3.7% from 8,163 in 2024 ([allAfrica](https://allafrica.com/stories/202604290670.html)) | **Verify in the Uganda Police Annual Crime Report** |
+| Cost of imprisonment versus a youth programme | Uganda Prisons Service budget and number of inmates; programme cost per participant | To research |
 | Successes and failures of state-led industry | Case studies: Asian steel champions; African stalled plants; Uganda’s vehicle maker | To research |
 | Graduate-enterprise and public-works precedents | TVET micro-enterprise schemes; youth public-works programmes in East Africa | To research |
 
@@ -74,6 +83,7 @@ The line for the book could be: ***Make work available, paid and worth doing —
 | 6 | **Make What We Use** | Why do we import lorries and spare parts, and what would it take to make them? | *Origins* Ch 7–8 → Book Three |
 | 7 | **Money That Stays Home** | How do specialisation and interdependence build wealth locally? | Book Three |
 | 8 | **Work for All, Without Chains** | Can a state guarantee work without forcing it? | *Origins* Ch 7 → Book Three |
+| 8b | **From Kifeesi to Workforce** | Why do we keep arresting the same young men, and what turns them into workers? | Book Two → Three |
 | 9 | **The Office Larger Than the Officer** | What stops power from swallowing purpose? | *Origins* Ch 5, 9 |
 | 10 | **The Sentence We Write Next** | What can one reader do this month? | *Origins* Ch 11 → Book Three |
 
@@ -84,4 +94,4 @@ The line for the book could be: ***Make work available, paid and worth doing —
 1. KandaNews channel or a separate brand?
 2. Which episode is the pilot?
 3. Should the videos launch *before* the books (to build an audience for August–September 2027) or alongside them?
-4. Do you accept the reframing of idea 7, from compulsory work to guaranteed work?
+4. For the kifeesi episode: should it include a reformed former gang member's story (with consent), and should it be the pilot?
