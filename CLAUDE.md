@@ -26,6 +26,7 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | **Open `[AUTHOR]` placeholders** | 5 in total: Introduction (1, campus scene), Ch 10 (1, schooling), Ch 11 (3, campus and present). In the proof they print as shaded boxes headed “Author’s passage to come”. Kooki material removed at the author’s request (31 Oct 2026) — keep the big picture |
 | **Next note number** | **143** |
 | **Next task** | **Author reads the printed proof; then fill the `[AUTHOR]` boxes, confirm the dedication, and run the verification list** |
+| Book Three ideas + video series | Author’s ideas on education, graduate enterprise, industry and work captured in `research/adjustment_bureau_ideas_and_video_series.md` (4 Nov 2026), with editorial notes, research leads and a 10-episode video outline. Compulsory work by arrest flagged as conflicting with Art. 25 of Uganda’s Constitution and the trilogy’s principles; “guaranteed, not forced” work proposed instead — awaiting author’s decision |
 | Covers | Draft 1 in `cover/` (generator `cover/build_cover.js`; palettes dusk/laterite/ochre/charcoal/cream; **dusk** currently preferred). Wrap regenerated for 152 pp (spine 0.38 in). Replace the low-res author photo before print |
 
 Chapters 4–11 were drafted on 31 October 2026. Ch 8–11 run shorter (~2,000–2,700 words) by design; the author’s own material will deepen them. Every Wikipedia-led or secondary point is listed in `research/verification.md`. The author has asked next for: **the Introduction, front matter and covers.**
