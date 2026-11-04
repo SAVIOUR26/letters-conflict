@@ -26,7 +26,7 @@ This repository holds the manuscript and build system for **Letters Conflict**, 
 | **Open `[AUTHOR]` placeholders** | 5 in total: Introduction (1, campus scene), Ch 10 (1, schooling), Ch 11 (3, campus and present). In the proof they print as shaded boxes headed “Author’s passage to come”. Kooki material removed at the author’s request (31 Oct 2026) — keep the big picture |
 | **Next note number** | **143** |
 | **Next task** | **Author reads the printed proof; then fill the `[AUTHOR]` boxes, confirm the dedication, and run the verification list** |
-| Book Three ideas + video series | Author’s ideas on education, graduate enterprise, industry and work captured in `research/adjustment_bureau_ideas_and_video_series.md` (4 Nov 2026), with editorial notes, research leads and a 10-episode video outline. Author clarified (4 Nov): the aim is to turn slum youth gangs (kifeesi) into productive workers instead of cycling them through prison. Now written up as “From Kifeesi to Workforce” with evidence from Liberia and Uganda and the Community Service Act 2000 |
+| Ideas bank (Book Three + video) | **Parked by the author (4 Nov 2026): ideas only.** Saved in `research/adjustment_bureau_ideas_and_video_series.md` (education-to-work, graduate enterprise teams, local industry, “From Kifeesi to Workforce”). Draw on it when writing Books Two and Three. Videos come later and will be **based on the books**; consult the author before any video work. Keep adding new ideas to this file |
 | Covers | Draft 1 in `cover/` (generator `cover/build_cover.js`; palettes dusk/laterite/ochre/charcoal/cream; **dusk** currently preferred). Wrap regenerated for 152 pp (spine 0.38 in). Replace the low-res author photo before print |
 
 Chapters 4–11 were drafted on 31 October 2026. Ch 8–11 run shorter (~2,000–2,700 words) by design; the author’s own material will deepen them. Every Wikipedia-led or secondary point is listed in `research/verification.md`. The author has asked next for: **the Introduction, front matter and covers.**
@@ -166,6 +166,7 @@ node cover/build_cover.js 152 cream dusk   # cover wrap for the real page count
 - The original trilogy cover files and box-set mockup (made earlier in ChatGPT).
 - Confirmation of trim size (6 × 9 in default) and overall length.
 - Dedication and acknowledgments.
+- **Standing rule (4 Nov 2026):** whenever the author shares a new idea or concept, save it to `research/adjustment_bureau_ideas_and_video_series.md` (or a sibling file in `research/`) and continue with the book journey.
 
 ## 11. Things never to do
 

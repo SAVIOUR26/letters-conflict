@@ -1,6 +1,6 @@
 # Africa Adjustment Bureau — the author’s ideas, and a video series to carry them
 
-*Captured 4 November 2026 from the author’s notes. Status: ideas and research leads, not yet verified text. Nothing here goes into a book or on screen until the facts are checked (house rule: every factual claim carries a source).*
+*Captured 4 November 2026 from the author’s notes. **Parked by the author: an ideas bank, not a work plan.** Use what is needed when writing Books Two and Three; video episodes will follow the books, after consulting the author. Status: ideas and research leads, not yet verified text. Nothing here goes into a book or on screen until the facts are checked (house rule: every factual claim carries a source).*
 
 ---
 
