@@ -1,5 +1,6 @@
-// Letters Conflict · Book Two · Somewhere in Africa — Book Blueprint (Version 2)
+// Letters Conflict · Book Two · Somewhere in Africa — Book Blueprint (Version 3)
 // node build/blueprint_book2.js  →  drafts/Letters_Conflict_Somewhere_in_Africa_Blueprint.docx
+// v3 (14 Nov 2026): five editorial safeguards folded in; Chapter 1 drafted.
 // v2 (14 Nov 2026): rebuilt on the author's direction — present tense, "the system",
 // personal sovereignty over state sovereignty, no hope resolution, end on the gap (Book Three).
 const { save } = require('./docbuilder');
@@ -9,14 +10,14 @@ const B = [
 ['subtitle', 'Book Two · Somewhere in Africa — The Anatomy of Our Contradictions'],
 ['meta', 'Book Blueprint and Production Plan'],
 ['meta', 'Najuna Saviour · KandaNews Africa Co. Ltd'],
-['meta', 'Working document · Version 2 · 14 November 2026'],
+['meta', 'Working document · Version 3 · 14 November 2026'],
 ['break'],
 
 ['h1', 'How to use this document'],
-['p', 'This blueprint is the single reference for writing, designing and publishing *Letters Conflict: Somewhere in Africa*. Version 2 replaces Version 1. It is rebuilt on the author’s direction of 14 November 2026:'],
+['p', 'This blueprint is the single reference for writing, designing and publishing *Letters Conflict: Somewhere in Africa*. Version 3 replaces Versions 1 and 2. It is built on the author’s direction of 14 November 2026, and adds five editorial safeguards the author approved the same day (Section 4). Chapter 1 has been drafted to this blueprint as the proof of voice.'],
 ['quote', 'We are in present tense describing the system… how bad politics has crippled African nations… not country sovereignty but personal sovereignty… however much we try to improve within a wrong system it becomes like wishful thinking… parliaments become jokes without power, education not equipping people to change their place… It should not leave them hope, because later we shall be discussing the Adjustment Bureau… open the reader’s eyes to the gap.'],
 ['p', 'Items marked **[Author]** need Najuna Saviour’s decision or his own experience. Items marked **[Verify]** are research leads to be checked against the original source before they appear in the manuscript. Verified material is kept in *research/book2_evidence_dossier.md*.'],
-['h2', 'What changed from Version 1'],
+['h2', 'What changed from Version 1 (kept in Version 3)'],
 ['table', ['Version 1', 'Version 2'], [
   ['Witness scenes of everyday contradictions; the citizen’s own small exceptions at the centre.', '**The system** at the centre: one arrangement of power, described in the present tense, and what it does to every institution and every citizen beneath it.'],
   ['Ends in responsibility and hope (“The Letter That Refused Disorder”); every chapter had “Where the Letters Hold”.', 'Ends on **the gap** — the measured distance between the republic that exists and the republic that was promised. No solutions; they belong to Book Three. Every chapter now has **“The Gap”** instead.'],
@@ -45,21 +46,22 @@ const B = [
 ['quote', 'Because somewhere in Africa one letter has tried to become the whole word — and every institution that should have held the sentence together has been rearranged to protect that letter instead.'],
 ['h2', 'The spine of the argument'],
 ['numbers', [
-  '**The Throne.** Power is entrusted not to a strong system but to a single person. The state’s sovereignty becomes that person’s sovereignty: the army, the courts, the parliament, the budget and the party are bent towards keeping one letter in place.',
+  '**The Throne.** Power is entrusted not to a strong system but to a single person. The state’s sovereignty becomes that person’s sovereignty: the army, the courts, the parliament, the budget and the party are bent towards keeping one letter in place. The throne is the **keystone**, not the whole arch: beneath it stand a thousand small thrones (the minister, the district official, the head teacher, the pastor, the chairman), each an office that has acquired a face. The large throne protects the small ones; the small ones hold up the large one.',
   '**The Reach.** This arrangement reaches every citizen: the signature that has a price, the classroom that does not teach, the graduate with nowhere to stand, the clinic without drugs, the road rebuilt for the election and broken by the rain.',
-  '**The Lock.** It becomes very hard to change. Elections are won with small gifts; reforms are adopted in form and emptied in function; capable people fall silent or leave. Improving inside a wrong system becomes wishful thinking.',
+  '**The Lock.** It becomes very hard to change. Elections are won with small gifts; reforms are adopted in form and emptied in function; capable people fall silent or leave. And ordinary citizens, adapting sensibly to the rules as they really are, help to hold the painting up. Improving inside a wrong system becomes wishful thinking.',
   '**The Gap.** The book ends by setting the two pictures side by side — the republic on paper and the republic in practice — and measuring the distance between them. That distance is what Book Three sets out to close.',
 ]],
 ['h2', 'The reader and the change in the reader'],
 ['p', 'Same primary reader as Origins: a young African adult, 18–35, student, graduate, young professional or entrepreneur.'],
 ['table', ['When they open the book, the reader may believe…', 'When they close it, the reader should see…'], [
-  ['Our problem is one bad leader; replace him and it ends.', 'The problem is an arrangement. Replacing the face without changing the grammar often rebuilds the same throne.'],
+  ['Our problem is one bad leader; replace him and it ends.', 'The problem is an arrangement: a keystone throne held up by many small ones and by everyone’s adaptations. Replacing the face without changing the grammar often rebuilds the same throne.'],
+  ['The system is “them”; I am only its victim.', 'I live inside it and have learned its rules. My sensible adaptations are part of what keeps it standing. This is diagnosis, not blame.'],
   ['We have a parliament, courts and elections, so we have a working state.', 'Forms are not functions. A state can own every institution a republic needs and still have none of them working as designed.'],
   ['If we work hard and reform step by step, the system will improve.', 'Inside this arrangement, reform is absorbed: it becomes a workshop, a report, a new agency painted to match. Effort is not the missing ingredient.'],
   ['Africans are corrupt, lazy or do not want democracy.', 'Across 39 countries surveyed, most people reject one-man rule. The failure is in what is supplied, not in what the people demand.'],
 ], [4513, 4513]],
 ['h2', 'The emotional journey [Author: approve the change]'],
-['p', 'Version 1 used the locked journey *recognition → discomfort → self-implication → responsibility.* The new direction ends without hope, so this blueprint proposes: **recognition → anatomy → entrapment → the gap.** The reader recognises the system, sees how it works, understands why it holds, and is left facing the distance between what is and what should be. Not despair — clarity. The reader is meant to close the book unsettled and wanting Book Three.'],
+['p', 'Version 1 used the locked journey *recognition → discomfort → self-implication → responsibility.* The new direction ends without hope, so this blueprint proposes: **recognition → anatomy → entrapment → the gap.** The reader recognises the system, sees how it works, understands why it holds, and is left facing the distance between what is and what should be. Not despair — clarity. The book withholds **remedies**, not **agency**: the reader is meant to close it unsettled, seeing clearly, and wanting Book Three — not persuaded that silence or exit is the only rational answer.'],
 
 ['h1', '3. The central image: the Painted Republic', true],
 ['p', 'The author asked for a dramatic, professional way to describe the system. This blueprint proposes one image that carries the whole book, and one that connects it to the trilogy’s metaphor. [Author: approve or choose]'],
@@ -69,7 +71,7 @@ const B = [
   ['**The Throne, the Reach, the Lock** (the three Parts)', 'Who holds power; how far it reaches into ordinary life; why it does not let go.', 'Proposed Part titles.'],
 ], [2200, 3700, 3126]],
 ['h2', 'A proof of voice'],
-['p', 'A sample of how the book would sound, written to the author’s direction: present tense, no names, real events behind every sentence. Note numbers here point to the evidence dossier. [Author: is this the voice?]'],
+['p', 'A sample of how the book would sound. It has since grown into the full draft of Chapter 1, *Somewhere, This Morning* (*manuscript/somewhere/ch01.js*; *drafts/Letters_Conflict_Somewhere_in_Africa_Chapters_1_Draft.pdf*). Note numbers here point to the evidence dossier. [Author: is this the voice?]'],
 ['quote', 'Somewhere in Africa, the republic is beautifully painted.'],
 ['p', 'It has everything a republic should have. A constitution, printed and bound and sold at the bookshop by the bus park. A parliament with a mace and a Speaker and a bell that calls the members to vote. A court of final appeal with carved doors. An electoral commission with a logo, an anti-corruption agency with a hotline, an auditor-general who publishes every year. There is a flag, an anthem, a five-year development plan and a thirty-year vision. A visitor who walks through the capital with a checklist can tick every box.'],
 ['p', 'Then the visitor watches what the boxes do.'],
@@ -82,10 +84,20 @@ const B = [
 ['p', 'This book does not offer a way out. Not yet. It does something that must come first. It measures the distance between the painting and the wall.'],
 ['p', '*Sample notes:* [1] Africa Center for Strategic Studies, term-limit evasion, Nov 2024 [Verify]. [2] Pritchett, Woolcock and Andrews, UNU-WIDER WP 2012/63 (read). [3] Roessler, *Ethnic Politics and State Power in Africa*, 2016 [Verify]. [4] Afrobarometer, *African Insights 2024* (read). [5] World Bank, learning poverty, 23 June 2022 (Sub-Saharan Africa, simulated post-COVID estimate; read).'],
 
-['h1', '4. The shape of the book', true],
+['h1', '4. Five editorial safeguards (new in Version 3)', true],
+['p', 'Agreed with the author on 14 November 2026, after a professional read of Version 2. They apply to every chapter.'],
+['table', ['Safeguard', 'Why', 'How it shows in the book'], [
+  ['**1. The throne is the keystone, not the only cause.**', 'If every failure comes from one man, scholars and reviewers will object: weak learning and broken roads also exist where leaders change regularly. A single-cause book is easy to dismiss.', 'Each chapter shows the great throne *and* the small thrones beneath it: the office that has acquired a face at every level. Chapter 1, “The Throne and the Small Thrones”.'],
+  ['**2. The citizen stays inside the picture.**', 'Origins handed over the question “why are *we* still writing the same sentences?” A book that answers only “because of him” dodges it, and reads as party politics.', 'A new format section, **The Citizen Inside**, in every chapter: how sensible adaptations (the exception taken, the gift accepted, the silence kept) hold the painting up. Diagnosis, not blame; the person keeps their dignity.'],
+  ['**3. No remedies, but not no agency.**', 'Young readers who finish feeling helpless may choose silence or exit, which Chapter 12 shows is itself one of the system’s locks.', 'Chapters end on a measurement (The Gap), not on despair. Language of clarity, not doom. The last chapter leaves the reader seeing the gap, not giving up.'],
+  ['**4. Book Three must answer Painted Reform.**', 'If Chapter 11 shows that reform inside the system is absorbed, readers will ask why the Adjustment Bureau will not be painted over too.', 'Written into the Book Three brief now (Section 10): its first task is to answer that question directly. Book Two may raise it openly in Chapter 13.'],
+  ['**5. Unnamed is not unrecognisable.**', 'Readers will recognise real events from their own countries. That is the book’s power, and a real legal and personal risk for an author and publisher based in Kampala.', 'Scenes stay at the level of the pattern; documented events use only what is already on the public record; no scene describes a single identifiable person; a lawyer reads the manuscript before print. [Publisher]'],
+], [2300, 3400, 3326]],
+
+['h1', '5. The shape of the book', true],
 ['p', 'Same house structure as Origins: front matter, a short personal Introduction, three Parts, Research Notes and Sources, About the Author. **Proposed length: about 40,000–45,000 words** (13 chapters of about 3,000–3,400 words). [Author: confirm]'],
 ['table', ['Section', 'Contents', 'Words'], [
-  ['Front matter', 'Title · Copyright · Dedication [Author] · Acknowledgments · Contents · A Note to the Reader (why no names; the scene labels, Section 6)', '900'],
+  ['Front matter', 'Title · Copyright · Dedication [Author] · Acknowledgments · Contents · A Note to the Reader (why no names; the scene labels, Section 7)', '900'],
   ['Introduction', '“Somewhere, Every Day” — when the author began to see the system at work around him. Built from the Book Two author interview. [Author]', '1,500'],
   ['Part I', '**The Throne** — how power is arranged (Chapters 1–4)', '13,000'],
   ['Part II', '**The Reach** — what the arrangement does to the citizen (Chapters 5–9)', '16,000'],
@@ -121,14 +133,15 @@ const B = [
   '**Recurring image:** the pothole (as the wall was for Origins and the case file will be for Book Three).',
 ]],
 
-['h1', '5. The house chapter format for Book Two', true],
+['h1', '6. The house chapter format for Book Two', true],
 ['p', 'Origins’ format, adapted from history to the present tense.'],
 ['numbers', [
   '**Epigraph** — verified, preferably an African voice.',
-  '**The Scene** — 400–800 words, present tense, labelled with its type (Section 6). Unnamed place, unnamed people, real event or pattern.',
+  '**The Scene** — 400–800 words, present tense, labelled with its type (Section 7). Unnamed place, unnamed people, real event or pattern.',
   '**The Question** — stated plainly.',
   '**Under the Scene** — the evidence, with coverage stated (“across 39 countries surveyed”, “in fourteen countries”) but no country named in the prose. Sources in the notes.',
-  '**The Machinery** — how the system works here: incentives, loyalty, fear, money and the face behind the office.',
+  '**The Machinery** — how the system works here: the keystone throne and the small thrones beneath it; incentives, loyalty, fear and money.',
+  '**The Citizen Inside** — how ordinary people’s sensible adaptations help hold this part of the painting up. Diagnosis, not blame (Safeguard 2).',
   '**When the Evidence Corrects the Story** — a popular belief checked against the sources and found more complicated. (Every chapter; the author’s signature move.)',
   '**Who Pays** — who carries the cost today, and how unequally.',
   '**The Gap** — what this institution is meant to do, what it does, and the distance between, stated as a measurement, not a remedy. (Replaces Version 1’s “Where the Letters Hold”.)',
@@ -137,7 +150,7 @@ const B = [
   'A rule (three spaced asterisks), two closing paragraphs (the second points onward), and the refrain. **Proposed refrain:** *Somewhere in Africa, this is happening now.* [Author: choose, or keep the Origins refrain]',
 ], 3],
 
-['h1', '6. No names: scenes, honesty and the law'],
+['h1', '7. No names: scenes, honesty and the law'],
 ['p', 'The author’s rule: *we are not mentioning names or anything, because this is somewhere in Africa.* The book is about a system, so the prose names no country, city, leader, party or private person. But every scene stands on real ground. A Note to the Reader explains this, and every scene carries one of four labels.'],
 ['table', ['Label', 'What it means', 'Rule'], [
   ['Reported', 'A real, documented event — a vote in parliament, a court ruling, an audit finding — told without names.', 'Details as reported, nothing added or sharpened. The source is in the notes.'],
@@ -153,7 +166,7 @@ const B = [
   'Defamation read before print. [Publisher]',
 ]],
 
-['h1', '7. Evidence spine'],
+['h1', '8. Evidence spine'],
 ['p', 'Verified items are in *research/book2_evidence_dossier.md*. The strongest so far:'],
 ['table', ['Finding', 'Source', 'Status'], [
   ['66% prefer democracy; 80% reject one-man rule; only 37% satisfied with how it works; problem is “a supply-side failure by African leaders to deliver” (39 countries, 2021–2023).', 'Afrobarometer, *African Insights 2024*', 'Read'],
@@ -164,7 +177,7 @@ const B = [
 ], [5000, 2826, 1200]],
 ['p', 'Still to research: parliamentary budget power and audit follow-up (Ch 3); trust in police and courts (Ch 4); bribery (Ch 5); youth NEET (Ch 7); health spending and medical travel (Ch 8); road maintenance (Ch 9); election quality and vote-buying (Ch 10); emigration intentions (Ch 12). [Verify]'],
 
-['h1', '8. What the ideas bank contributes'],
+['h1', '9. What the ideas bank contributes'],
 ['p', 'From *research/adjustment_bureau_ideas_and_video_series.md*. Book Two diagnoses; Book Three proposes. So this book takes the **problems** and leaves every **programme** for the Bureau.'],
 ['table', ['Author’s idea', 'In Book Two (diagnosis)', 'Left for Book Three (solution)'], [
   ['Expensive education, unready graduates', 'Ch 6: the system cannot give power it does not have', 'Education tied to real work and real gaps'],
@@ -174,12 +187,13 @@ const B = [
   ['A state that directs specialisation', 'Ch 11: why the painted state cannot direct anything', 'The Bureau itself'],
 ], [2600, 3300, 3126]],
 
-['h1', '9. The ending and the hand-off to Book Three'],
+['h1', '10. The ending and the hand-off to Book Three'],
 ['p', 'The book ends without hope and without despair: with **a measurement.** Chapter 13 sets the two republics side by side, institution by institution, and closes on the distance between them. The Bureau is not named as an answer; the reader is simply left knowing that the gap cannot be closed from inside the painting.'],
 ['p', '**Proposed final hand-off line:** [Author]'],
 ['quote', 'Now the gap is visible. It cannot be closed from inside the painting. Someone will have to step outside it and begin to build the wall.'],
+['p', '**A requirement for Book Three (Safeguard 4).** Book Two shows in Chapter 11 that reform inside the system is absorbed and painted over. *Africa Adjustment Bureau* must therefore open by answering the reader’s obvious question: *why would the Bureau not be painted over too?* Its design must show what is different about where it stands, who it answers to, and how it measures function rather than form. Chapter 13 of this book may pose the question openly, so that Book Three is seen to accept it.'],
 
-['h1', '10. Front and back matter, and the author’s voice'],
+['h1', '11. Front and back matter, and the author’s voice'],
 ['bullets', [
   'Same sequence and layout as the Origins proof.',
   '**A Note to the Reader** — why the book names no names; the four scene labels; *somewhere does not mean everywhere.*',
@@ -187,30 +201,30 @@ const B = [
   '**Witnessed scenes** — the interview (*research/author_interview_book2.md*) asks for them. Nothing will be invented. [Author]',
 ]],
 
-['h1', '11. Cover brief'],
+['h1', '12. Cover brief'],
 ['p', 'Same generator and series system as Origins (*cover/build_cover.js*). **Idea: the painted republic** — a bright painted façade (flag colours, columns) flaking to show bare blockwork behind; or letters stencilled on a wall, one letter far larger than the rest. **Palette:** harsh midday after Origins’ dusk, before Book Three’s dawn. [Author]'],
 
-['h1', '12. Production plan', true],
+['h1', '13. Production plan', true],
 ['table', ['Stage', 'What happens', 'Target'], [
-  ['1. Blueprint', 'Version 2 approved or corrected: image, Parts, chapters, refrain, ending. [Author]', 'November 2026'],
+  ['1. Blueprint', 'Version 3 approved or corrected: image, Parts, chapters, refrain, ending, safeguards. [Author]', 'November 2026'],
   ['2. Author interview (Book Two)', 'Witnessed scenes and the Introduction material. [Author]', 'November–December 2026'],
-  ['3. Proof of voice', 'Chapter 1 drafted in the new format; author reviews tone, naming rule and labels.', 'December 2026'],
+  ['3. Proof of voice', '**Chapter 1 drafted (14 Nov 2026).** Author reviews tone, naming rule, labels and the five safeguards.', 'November–December 2026'],
   ['4. Chapters 2–13', 'Evidence dossier, then chapter, about one a week, each reviewed by the author.', 'December 2026 – March 2027'],
-  ['5. Book Three blueprint', 'Africa Adjustment Bureau blueprint, built to answer Chapter 13’s gap.', 'March 2027'],
+  ['5. Book Three blueprint', 'Africa Adjustment Bureau blueprint, built to answer Chapter 13’s gap and the Painted Reform question (Safeguard 4).', 'March 2027'],
   ['6. Legal and fact check', 'Fact check; defamation read of every scene.', 'June 2027'],
   ['7. Typesetting and covers', 'House layout, page count, spine, full wrap; trilogy box-set artwork.', 'July 2027'],
   ['8. Proof and release', 'Printed proofs, corrections, release of all three books together.', 'August–September 2027'],
 ], [2400, 5026, 1600]],
 
-['h1', '13. Decisions for the author'],
+['h1', '14. Decisions for the author'],
 ['numbers', [
+  'Read Chapter 1, *Somewhere, This Morning*: is this the voice, and does it handle the throne, the small thrones and the citizen in the right balance?',
   'Central image: **the Painted Republic**, linked to *the letter that became the word*?',
-  'Is the proof of voice (Section 3) the right tone?',
   'Parts: **The Throne · The Reach · The Lock**, and the 13 chapters, including the new *The House That Says Yes* and *Painted Reform*?',
   'Emotional journey: **recognition → anatomy → entrapment → the gap** (replacing the locked journey for this book)?',
   'Refrain: *Somewhere in Africa, this is happening now.* — or keep *The letters remain. The question is the sentence.*?',
-  'Naming rule: no names in the prose; real sources in the notes?',
-  'Final hand-off line (Section 9)?',
+  'Naming rule: no names in the prose; real sources in the notes? Chapter 1’s epigraph attribution names a city (Accra): keep it, or attribute to the speaker and date only?',
+  'Final hand-off line (Section 10)?',
   'Length: about 40,000–45,000 words?',
   'Answer the Book Two interview, especially the scenes you have witnessed yourself.',
 ], 2],

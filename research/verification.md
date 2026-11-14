@@ -115,3 +115,5 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] World Bank, *State of Global Learning Poverty 2022*: confirm SSA 86% (2019) and 89% simulated in the report itself.
 - [ ] UBOS NLFS 2021 youth unemployment (17%) and NEET (41%), ages 18–30 — confirm in UBOS report.
 - [ ] Every Reported (anonymised) scene: confirm details match the public record, and defamation read.
+- [ ] Book Two Ch 1: check Afrobarometer figures (note 2) against the full *African Insights 2024* PDF, incl. youth figures and the “up to 40 points” fall.
+- [ ] Book Two Ch 1: epigraph attribution names Accra — author to decide (no-names rule).

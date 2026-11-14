@@ -8,7 +8,8 @@
     "blueprint": "node build/blueprint.js",
     "proof": "node build/build_edition.js",
     "edition": "node build/build_edition.js --final",
-    "blueprint2": "node build/blueprint_book2.js"
+    "blueprint2": "node build/blueprint_book2.js",
+    "build2": "node build/build_book.js --somewhere"
   },
   "dependencies": {
     "docx": "9.5.1",

@@ -11,7 +11,13 @@ const { Document, Packer, Paragraph, TextRun, AlignmentType, Header, Footer, Pag
 const { runs } = require(path.join(__dirname, 'docbuilder'));
 
 const FONT = 'EB Garamond', INK = '1A1A1A', MUTED = '555555';
-const BOOK = 'LETTERS CONFLICT: ORIGINS';
+// LC_BOOK=somewhere selects Book Two (default: Origins)
+const BOOKS = {
+  origins: { dir: 'origins', head: 'LETTERS CONFLICT: ORIGINS', title: 'ORIGINS', sub: 'The Anatomy of the Conflict', file: 'Origins', checked: 'Web sources were checked between 26 and 31 October 2026. In the finished book, notes are numbered continuously through all chapters.' },
+  somewhere: { dir: 'somewhere', head: 'LETTERS CONFLICT: SOMEWHERE IN AFRICA', title: 'SOMEWHERE IN AFRICA', sub: 'The Anatomy of Our Contradictions', file: 'Somewhere_in_Africa', checked: 'Web sources were checked on 14 November 2026. Book Two’s notes are numbered from 1. The prose names no country or person; the notes give the real sources.' },
+};
+const BK = BOOKS[process.argv.includes('--somewhere') ? 'somewhere' : (process.env.LC_BOOK || 'origins')];
+const BOOK = BK.head;
 // left = inside (gutter side) once mirrorMargins is set; right = outside
 const page = { size: { width: 8640, height: 12960 }, margin: { top: 1080, bottom: 1080, left: 1080, right: 880, header: 600, footer: 580 } };
 const LINE = 300; // ~1.25 line spacing
@@ -48,7 +54,7 @@ function chapterBlocks(ch) {
 function noteBlocks(chapters) {
   const out = [
     new Paragraph({ spacing: { before: 900, after: 200 }, children: [new TextRun({ text: 'Research Notes and Sources', size: 32, bold: true })] }),
-    new Paragraph({ spacing: { after: 200, line: 252 }, alignment: AlignmentType.JUSTIFIED, children: [new TextRun({ text: 'Notes identify the material used for factual statements and say what each source supports. Web sources were checked between 26 and 31 October 2026. In the finished book, notes are numbered continuously through all chapters.', size: 18, italics: true })] }),
+    new Paragraph({ spacing: { after: 200, line: 252 }, alignment: AlignmentType.JUSTIFIED, children: [new TextRun({ text: 'Notes identify the material used for factual statements and say what each source supports. ' + BK.checked, size: 18, italics: true })] }),
   ];
   for (const ch of chapters) {
     out.push(new Paragraph({ keepNext: true, spacing: { before: 200, after: 120 }, children: [new TextRun({ text: `Chapter ${ch.chapter.num} · ${ch.chapter.title}`, size: 20, bold: true })] }));
@@ -66,8 +72,8 @@ function build(outPath, label, mods) {
   const cover = [
     center('WORKING DRAFT · FOR AUTHOR REVIEW', 16, { before: 1400, after: 900, color: MUTED, cs: 30 }),
     center('LETTERS CONFLICT', 26, { after: 160, cs: 60 }),
-    center('ORIGINS', 56, { bold: true, after: 120, cs: 40 }),
-    center('The Anatomy of the Conflict', 26, { italics: true, after: 900 }),
+    center(BK.title, 56, { bold: true, after: 120, cs: 40 }),
+    center(BK.sub, 26, { italics: true, after: 900 }),
     ...(chapters[0].note ? [center('A Note to the Reader', 22, { after: 60 })] : []),
     ...listing,
     center('Research Notes and Sources', 22, { after: 1100 }),
@@ -91,7 +97,7 @@ function build(outPath, label, mods) {
     children: noteBlocks(chapters) });
 
   const doc = new Document({
-    creator: 'Najuna Saviour', title: `Letters Conflict: Origins — ${label}`, evenAndOddHeaderAndFooters: true,
+    creator: 'Najuna Saviour', title: `Letters Conflict: ${BK.title} — ${label}`, evenAndOddHeaderAndFooters: true,
     styles: { default: { document: { run: { font: FONT, size: 22, color: INK } } } },
     numbering: { config: [{ reference: 'q', levels: [{ level: 0, format: LevelFormat.DECIMAL, text: '%1.', alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 400, hanging: 300 } } } }] }] },
     sections,
@@ -110,14 +116,14 @@ function build(outPath, label, mods) {
   });
 }
 
-let [out, label, ...mods] = process.argv.slice(2);
+let [out, label, ...mods] = process.argv.slice(2).filter(x => x !== '--somewhere');
 if (!out) {
-  const dir = path.join(__dirname, '..', 'manuscript', 'origins');
+  const dir = path.join(__dirname, '..', 'manuscript', BK.dir);
   mods = fs.readdirSync(dir).filter(f => /^ch\d+\.js$/.test(f)).sort().map(f => path.join(dir, f));
   const nums = mods.map(m => parseInt(path.basename(m).slice(2), 10));
   const range = nums.length > 1 ? `${nums[0]}-${nums[nums.length - 1]}` : `${nums[0]}`;
   const today = new Date().toISOString().slice(0, 10);
-  out = path.join(__dirname, '..', 'drafts', `Letters_Conflict_Origins_Chapters_${range}_Draft.docx`);
+  out = path.join(__dirname, '..', 'drafts', `Letters_Conflict_${BK.file}_Chapters_${range}_Draft.docx`);
   label = `Chapters ${range.replace('-', '–')} · Draft · ${today}`;
 }
 build(out, label, mods);

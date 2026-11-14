@@ -1,6 +1,6 @@
 # Somewhere in Africa — chapter plan (Book Two)
 
-Companion to `drafts/Letters_Conflict_Somewhere_in_Africa_Blueprint.docx` (**Version 2**, 14 November 2026). Verified material: `research/book2_evidence_dossier.md`. Everything else here is a **lead or proposal**.
+Companion to `drafts/Letters_Conflict_Somewhere_in_Africa_Blueprint.docx` (**Version 3**, 14 November 2026; adds five safeguards: keystone + small thrones, The Citizen Inside in every chapter, no remedies but not no agency, Book Three must answer Painted Reform, unnamed ≠ unrecognisable). Verified material: `research/book2_evidence_dossier.md`. Everything else here is a **lead or proposal**.
 
 **Direction (author, 14 Nov 2026):** present tense; describe *the system*; personal sovereignty in place of state sovereignty; parliaments without power; education that does not equip; why reform inside a wrong system is wishful thinking; **no hope resolution**. End on **the gap** between the republic on paper and the republic in practice, which Book Three addresses. Real events, but **no names** in the prose (country, leader, party, person); sources go in the notes.
 
@@ -12,7 +12,7 @@ Each chapter has **[Correction]** (When the Evidence Corrects the Story) and **[
 
 ## Part I · The Throne (how power is arranged)
 
-### 1 · Somewhere, This Morning
+### 1 · Somewhere, This Morning — **Draft 1 done** (`manuscript/somewhere/ch01.js`)
 - Composite dawn in an unnamed capital inside the painted republic. Sets the method: no names, real events, scene labels; *somewhere does not mean everywhere*.
 - Evidence: Afrobarometer 2024 (demand vs supply). ✅
 - [Correction] "Africans don't want democracy" vs 80% rejecting one-man rule.
