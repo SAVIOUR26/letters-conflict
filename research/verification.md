@@ -107,3 +107,11 @@ Items that must be checked against the original source before *Origins* goes to 
 - [ ] Author revises every chapter in his own voice; decide KDP AI-content disclosure accordingly.
 - [ ] Research access note: UNESCO, Britannica and the Met blocked automated fetching from the drafting environment (Oct 2026); several notes therefore cite open secondary sources or Wikipedia as leads. Re-check these against the institutional pages by hand.
 - [ ] Permissions: epigraphs and long quotations from modern copyrighted works (e.g. Achebe) are short and attributed; confirm fair-dealing comfort with publisher.
+
+
+## Book Two · Somewhere in Africa (see research/book2_evidence_dossier.md)
+- [ ] ACSS, *Term Limit Evasions and Coups in Africa* (Nov 2024): 14 countries; 5 of 8 coup countries since 2015; median 16 vs 5 years. Site blocked automated fetch — read by hand.
+- [ ] Roessler, *Ethnic Politics and State Power in Africa* (CUP 2016): coup-proofing and the coup–civil war trap — check wording against the book.
+- [ ] World Bank, *State of Global Learning Poverty 2022*: confirm SSA 86% (2019) and 89% simulated in the report itself.
+- [ ] UBOS NLFS 2021 youth unemployment (17%) and NEET (41%), ages 18–30 — confirm in UBOS report.
+- [ ] Every Reported (anonymised) scene: confirm details match the public record, and defamation read.
